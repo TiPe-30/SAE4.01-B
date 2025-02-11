@@ -1,9 +1,9 @@
-PWD /home/tristan/SAE4.01
+PWD /home/tristan/SAE4.01-B
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/tristan/SAE4.01/fic.tex
+INPUT /home/tristan/SAE4.01-B/fic.tex
 OUTPUT fic.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
