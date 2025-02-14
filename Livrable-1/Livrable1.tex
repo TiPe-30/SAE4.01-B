@@ -1,5 +1,7 @@
-\documentclass{article}
+\documentclass{report}
 \usepackage{import}
+\usepackage{subfiles}
+\usepackage{graphicx}
 
 \begin{document}
 
@@ -8,9 +10,12 @@
 \date{\today}
 \maketitle
 
-\section{Introduction}
+\tableofcontents
 
-\import{Introduction/}{introduction}
+
+\section{Introduction}
+Active 
+\subfile{Introduction/introduction}
 
 \section{Architecture}
 Voici une liste des éléments :
@@ -24,9 +29,13 @@ Voici une liste des éléments :
 \section{Choix logiciels}
 
 
+
 \section{Choix du wiki}
 
 
+
 \section{Solutions mises en oeuvre}
+
+
 
 \end{document}
