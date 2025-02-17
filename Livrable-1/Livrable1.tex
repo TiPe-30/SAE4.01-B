@@ -1,15 +1,15 @@
-\documentclass{report}
+\documentclass{article}
 \usepackage{subfiles}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
-\usepackage{amsmath}
+
 
 \pagestyle{fancy}
 \fancyhf{} % Efface les en-têtes et pieds de page par défaut
 \fancyfoot[R]{\thepage} % Aligne le numéro de page à droite en bas
 \renewcommand{\headrulewidth}{0pt} % Supprime la ligne en haut de page
 \renewcommand{\footrulewidth}{0pt} % Supprime la ligne en bas de page
-\usepackage{amsmath}
+
 
 \begin{document}
 
@@ -58,7 +58,7 @@
 \title{Document de conception}
 
 \section{Choix du wiki}
-\input{ChoixWiki/choixWiki.tex}
+\subfile{ChoixWiki/choixWiki.tex}
 
 \section{Solutions mises en oeuvre}
 
