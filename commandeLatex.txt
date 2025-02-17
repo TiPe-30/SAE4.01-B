@@ -62,3 +62,9 @@ Personnaliser les couleurs :
 \definecolor{myBlue}{RGB}{30, 144, 255}
 \definecolor{myPurple}{RGB}{138, 43, 226}
 
+Pour inclure des sous fichiers [subfiles] : 
+    dans le fichier que l'on souhaite inclure : \documentclass[../Livrable1.tex]{subfiles}
+
+dans le fichier, dans lequel on veut inclure se sous fichier complété : dans le document principal
+par exemple : \usepackage{subfiles}
+puis, \subfile{chemin/fichier} sans l'extension .tex pour le nom du fichier
