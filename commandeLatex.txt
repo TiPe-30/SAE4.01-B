@@ -1,0 +1,64 @@
+Mettre une tables des matières : 
+    * Nom de la table des matières
+    \renewcommand{\contentsname}{Table des matières}
+
+    \tableofcontents
+
+
+Insérer une nouvelle page (saut de page) : 
+\newpage
+
+Désactiver la numerotation des pages : 
+\pagenumbering{gobble}
+
+Réactiver la numérotation des pages : 
+\pagenumbering{arabic}
+
+Créer une section : 
+\section{Introduction}
+
+Créer un sous section : 
+\subsection{sous section}
+
+Inclure une image en première page en dessous de la date de rédaction
+du rapport : 
+\usepackage{graphicx} à inclure au sommet du document
+
+\maketitle
+\begin{center}
+    \vspace{1cm} % Espace entre la date et l'image
+    \includegraphics[width=1\textwidth]{images/Logo-project.jpeg} % Ajuste le chemin et la taille
+\end{center}
+
+pour pouvoir souligner des phrases : 
+
+\underline{phrase}
+
+liste à puces : 
+
+\begin{itemize}
+    \item Niveau 2 choisis
+    \item Deuxième élément
+    \item Troisième élément
+\end{itemize}
+
+Mettre le numéro de page en bas à droite : 
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % Efface les en-têtes et pieds de page par défaut
+\fancyfoot[R]{\thepage} % Aligne le numéro de page à droite en bas
+\renewcommand{\headrulewidth}{0pt} % Supprime la ligne en haut de page
+\renewcommand{\footrulewidth}{0pt} % Supprime la ligne en bas de page
+
+
+Personnaliser les couleurs : 
+% Couleurs et style des sections
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Définir les couleurs
+\definecolor{myBlue}{RGB}{30, 144, 255}
+\definecolor{myPurple}{RGB}{138, 43, 226}
+
