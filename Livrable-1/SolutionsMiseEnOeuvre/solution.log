@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  21 FEB 2025 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  21 FEB 2025 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,28 +105,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+<../images/7z_chiffrer.png, id=1, 841.1425pt x 321.2pt>
+File: ../images/7z_chiffrer.png Graphic file (type png)
+<use ../images/7z_chiffrer.png>
+Package pdftex.def Info: ../images/7z_chiffrer.png  used on input line 24.
+(pdftex.def)             Requested size: 345.0pt x 131.74187pt.
+<../images/7z_dechiffr.png, id=3, 806.01125pt x 694.595pt>
+File: ../images/7z_dechiffr.png Graphic file (type png)
+<use ../images/7z_dechiffr.png>
+Package pdftex.def Info: ../images/7z_dechiffr.png  used on input line 30.
+(pdftex.def)             Requested size: 345.0pt x 297.3134pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../images/Envoi_chiffre.png, id=4, 1927.2pt x 1084.05pt>
+File: ../images/Envoi_chiffre.png Graphic file (type png)
+<use ../images/Envoi_chiffre.png>
+Package pdftex.def Info: ../images/Envoi_chiffre.png  used on input line 36.
+(pdftex.def)             Requested size: 345.0pt x 194.06194pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../images/element.png, id=5, 1443.89438pt x 776.14969pt>
+File: ../images/element.png Graphic file (type png)
+<use ../images/element.png>
+Package pdftex.def Info: ../images/element.png  used on input line 42.
+(pdftex.def)             Requested size: 345.0pt x 185.45071pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./solution.aux)
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <../images/7z_chiffrer.png>]
+
+[2 <../images/7z_dechiffr.png> <../images/Envoi_chiffre.png>]
+
+[3 <../images/element.png>] (./solution.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1743 strings out of 473201
- 29841 string characters out of 5720299
- 421374 words of memory out of 5000000
- 25021 multiletter control sequences out of 15000+600000
- 559172 words of font info for 37 fonts, out of 8000000 for 9000
+ 1781 strings out of 473201
+ 30875 string characters out of 5720299
+ 423462 words of memory out of 5000000
+ 25057 multiletter control sequences out of 15000+600000
+ 559777 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,11n,82p,318b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on solution.pdf (1 page, 29137 bytes).
+ 77i,11n,82p,318b,279s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on solution.pdf (3 pages, 403008 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
