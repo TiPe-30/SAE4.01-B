@@ -70,12 +70,40 @@ INPUT Livrable1.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT Livrable1.toc
 INPUT ./Introduction/introduction.tex
-INPUT ./Introduction/introduction.tex
 INPUT Introduction/introduction.tex
 INPUT ./Introduction/introduction.tex
-INPUT ./Introduction/introduction.tex
 INPUT Introduction/introduction.tex
+INPUT ./Architecture/architecture.tex
+INPUT Architecture/architecture.tex
+INPUT ./Architecture/architecture.tex
+INPUT Architecture/architecture.tex
+<<<<<<< HEAD
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+=======
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
+>>>>>>> refs/remotes/origin/main
+INPUT ./Architecture/../images/Architecture.jpg
+INPUT Architecture/../images/Architecture.jpg
+INPUT ./Architecture/../images/Architecture.jpg
+INPUT ./Architecture/../images/Architecture.jpg
+<<<<<<< HEAD
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+=======
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+>>>>>>> refs/remotes/origin/main
+INPUT ./ChoixLogiciels/choix.tex
+INPUT ChoixLogiciels/choix.tex
+INPUT ./ChoixLogiciels/choix.tex
+INPUT ChoixLogiciels/choix.tex
+INPUT ./ChoixWiki/choixWiki.tex
+INPUT ChoixWiki/choixWiki.tex
+INPUT ./ChoixWiki/choixWiki.tex
+INPUT ChoixWiki/choixWiki.tex
+INPUT ./SolutionsMiseEnOeuvre/solution.tex
+INPUT SolutionsMiseEnOeuvre/solution.tex
+INPUT ./SolutionsMiseEnOeuvre/solution.tex
+INPUT SolutionsMiseEnOeuvre/solution.tex
 INPUT Livrable1.aux
 INPUT /home/tristan/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -83,3 +111,4 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
