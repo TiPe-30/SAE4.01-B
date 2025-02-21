@@ -12,7 +12,8 @@
 \begin{document}
 
 \title{Document de conception}
-\author{Tristan Petit}
+\author{Tristan Petit, Nils Hubert, Toni Rey, 
+ Majd El Sebeiti , Vianney Miquel}
 \date{\today}
 \maketitle
 \begin{center}
@@ -38,25 +39,28 @@
 \pagenumbering{arabic}
 
 \section{Introduction}
-
-\subfile{Introduction/introduction}
+% ajout du sous contenu du fichier
+\subfile{Introduction/introduction.tex}
 
 \section{Architecture}
 
-% commentaire
-\begin{itemize}
-    \item Niveau 2 choisis
-    \item Deuxième élément
-    \item Troisième élément
-\end{itemize}
+%inclusion du fichier d'architecture
+\subfile{Architecture/architecture.tex}
 
 \section{Choix logiciels}
 
+%inclusion du fichier pour le choix du logiciel
+\subfile{ChoixLogiciels/choix.tex}
 
 \section{Choix du wiki}
 
+%inclusion du choix du wiki 
+\subfile{ChoixWiki/choixWiki.tex}
 
 \section{Solutions mises en oeuvre}
 
+%inclusion du fichier pour l'inclusion des solutions 
+% mises en oeuvre
+\subfile{SolutionsMiseEnOeuvre/solution.tex}
 
 \end{document}
