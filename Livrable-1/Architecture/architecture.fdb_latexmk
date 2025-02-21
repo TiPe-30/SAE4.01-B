@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1740146110.5785 "/Users/idk/Documents/cours/Admin Sys/SAE4/Livrable-1/Architecture/architecture.tex" "architecture.pdf" "architecture" 1740146111.077 0
+["pdflatex"] 1740149398.45792 "/Users/idk/Documents/cours/Admin Sys/SAE4/Livrable-1/Architecture/architecture.tex" "architecture.pdf" "architecture" 1740149398.90957 0
   "../Livrable1.tex" 1740145837.59161 1547 5cef99284c5020f3dc083b27553ed138 ""
-  "/Users/idk/Documents/cours/Admin Sys/SAE4/Livrable-1/Architecture/architecture.tex" 1740146110.38446 3169 4df2327d26591cd01738c3e08768728b ""
+  "../images/Architecture.jpg" 1740149343.6739 169621 7f067888b6219c4a2a2cc2a890b7f8ec ""
+  "/Users/idk/Documents/cours/Admin Sys/SAE4/Livrable-1/Architecture/architecture.tex" 1740149398.2586 3391 8088cbde394f734f94b0d1770d84e87b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -73,9 +74,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1739368601.67418 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1739368533 8221425 15d48041afef76468029fe3d9b5674b0 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "architecture.aux" 1740146111.0367 292 4c219c7d71b42da71e9c2122a5b6fcb8 "pdflatex"
-  "architecture.out" 1740146110.89593 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "architecture.tex" 1740146110.38446 3169 4df2327d26591cd01738c3e08768728b ""
+  "architecture.aux" 1740149398.87193 517 496bea9ba3fe1ced2fd1427bc14a7d3f "pdflatex"
+  "architecture.out" 1740149398.73121 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "architecture.tex" 1740149398.2586 3391 8088cbde394f734f94b0d1770d84e87b ""
   (generated)
   "architecture.aux"
   "architecture.log"

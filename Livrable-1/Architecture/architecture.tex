@@ -1,5 +1,4 @@
 \documentclass[../Livrable1.tex]{subfiles}
-\usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{array}
 
@@ -31,6 +30,14 @@ Pour \textbf{relier notre réseau à Internet}, nous devons mettre en place un \
 La communication avec Internet nécessite une adresse IP ; nous les attribuerons \textbf{dyna\-mi\-quement} avec un \textbf{serveur DHCP} par sous-réseau afin de ne pas surcharger un DHCP central.
 
 Enfin, nous devons résoudre les URLs en adresses IP grâce à un \textbf{serveur DNS}, le premier sera \textbf{interne} pour résoudre les \textbf{adresses des sous-réseaux} non accessibles depuis l’extérieur, et le deuxième \textbf{externe} pour résoudre les \textbf{adresses en ligne}.
+
+Cette architecture nous donne le schema suivant : 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{../images/Architecture.jpg}
+    \caption{Schema de l'architecture réseau}
+    \label{fig:architecture}
+\end{figure}
 
 \section*{Plan d’Adressage IP}
 
