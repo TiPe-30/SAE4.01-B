@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {3}Choix des logiciels}{2}{}%
 \contentsline {section}{\numberline {4}Choix du wiki}{3}{}%
 \contentsline {section}{\numberline {5}Mise en place des cannaux de communication}{3}{}%
-\contentsline {subsection}{\numberline {5.1}Exemples imagés}{4}{}%
+\contentsline {subsection}{\numberline {5.1}Exemples imagés}{3}{}%
