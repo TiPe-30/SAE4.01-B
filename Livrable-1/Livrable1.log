@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.22)  23 FEB 2025 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.22)  23 FEB 2025 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,60 +256,79 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1]) (ChoixLogiciels/choix.tex [2 <./Architecture/../images/Architecture.jpg>])
 (ChoixWiki/choixWiki.tex
-Overfull \hbox (7.22272pt too wide) in paragraph at lines 7--9
+! Undefined control sequence.
+l.8 \justify
+            {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (7.22272pt too wide) in paragraph at lines 9--11
 \OT1/cmr/m/n/10 nera cette in-fras-tuc-ture r^^Seseau afin qu'il ou elle puisse
  ^etre en mesure d'administrer
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 38--38
+Underfull \hbox (badness 1571) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10 L^^Seger, pas be-soin de
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 38--38
+Underfull \hbox (badness 1590) in paragraph at lines 40--40
 \OT1/cmr/m/n/10 puis-sant, sup-port des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10 Configuration plus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 \OT1/cmr/m/n/10 lourde, n^^Secessite
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10 Moderne, sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 \OT1/cmr/m/n/10 porte Mark-down,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 \OT1/cmr/m/n/10 bonne int^^Segration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
 \OT1/cmr/m/n/10 LDAP/SSO, in-ter-face
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 38--38
+Underfull \hbox (badness 4391) in paragraph at lines 40--40
 []|\OT1/cmr/m/n/10 Plus lourd, n^^Secessite
  []
 
 
-Overfull \hbox (25.00003pt too wide) in paragraph at lines 38--39
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 40--41
 [][] 
  []
+
+! Undefined control sequence.
+l.45 \justify
+             {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ) (SolutionsMiseEnOeuvre/solution.tex [3]
 <SolutionsMiseEnOeuvre/../images/7z_chiffrer.png, id=26, 841.1425pt x 321.2pt>
@@ -374,7 +393,7 @@ amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1
 s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/User/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Livrable1.pdf (8 pages, 732280 bytes).
+Output written on Livrable1.pdf (8 pages, 732277 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

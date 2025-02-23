@@ -1,11 +1,13 @@
 \documentclass[../Livrable1.tex]{subfiles}
 \usepackage{tabularx}
 \usepackage{multicol}
+\usepackage{ragged2e}
+
 \begin{document}
 	
-
-Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un
-intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
+\justify{
+Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
+}
 
 \begin{itemize}
     \item Critères de Choix :
@@ -36,7 +38,24 @@ intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'i
     		\textbf{XWiki} & Très complet, bon support des macros et extensions. & Installation plus complexe. \\
     		\hline
     \end{tabularx}
+    
 \end{itemize}
+
+
+
+\justify{
+	Choix du Moteur de Wiki : \textbf{Wiki.Js} \newline
+	\begin{itemize}
+		\item Support de plusieurs méthode d'authentification (dont LDAP et SAML 2.0) 
+		\item Gratuit : Open-source sous licence AGPL
+		\item Gestion avancé des utilisateurs
+		\item Facilement installable et déployable sur de nombreuses plateforme serveur et support d'un SGBD déja maitrisé : PostgreSQL
+		\item Beaucoup de fonctionnalités incluse
+		\item Support et communauté
+	\end{itemize}
+	
+	
+}
 
 
 \end{document}
