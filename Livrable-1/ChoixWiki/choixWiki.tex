@@ -1,12 +1,42 @@
 \documentclass[../Livrable1.tex]{subfiles}
+\usepackage{tabularx}
+\usepackage{multicol}
 \begin{document}
+	
 
 Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un
 intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
 
 \begin{itemize}
-    \item Critèes de Choix :
+    \item Critères de Choix :
+    \begin{multicols}{2}
+    \begin{itemize}
+    	\item Facilité d'utilisation
+    	\item Fonctionnalités
+    	\item Gestion des utilisateurs
+    	\item Sécurité
+    	\item Cout
+    	\item Support et communauté
+    \end{itemize}
+	\end{multicols}
+
     \item Comparaison des solutions :
+    	
+    	\renewcommand{\arraystretch}{1.5}
+    	\begin{tabularx}{\textwidth}{|X|X|X|}
+    		\hline
+    		Wiki & Avantages 2 & Inconvénients 3 \\ 
+    		\hline
+    		\textbf{DokuWiki} & Léger, pas besoin de base de données,  bon contrôle des accès, support LDAP. & Interface de base au design moins moderne. \\
+    		\hline
+    		\textbf{MediaWiki} & Utilisé par Wikipedia, puissant, support des extensions, bonne gestion des droits. & Configuration plus lourde, nécessite MySQL/PostgreSQL. \\
+    		\hline
+    		\textbf{Wiki.Js} & Moderne, supporte Markdown, bonne intégration LDAP/SSO, interface intuitive. & Plus lourd, nécessite une base de données et Node.js. \\
+    		\hline
+    		\textbf{XWiki} & Très complet, bon support des macros et extensions. & Installation plus complexe. \\
+    		\hline
+    \end{tabularx}
 \end{itemize}
+
 
 \end{document}
