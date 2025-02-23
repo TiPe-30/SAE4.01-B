@@ -6,7 +6,7 @@
 \begin{document}
 	
 \justify{
-Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
+Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un intervenant extérieur comment fonctionnera cette infrastructure réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
 }
 
 \begin{itemize}
@@ -24,10 +24,12 @@ Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevo
 
     \item Comparaison des solutions :
     	
+    	\begin{table}[h]
+		\centering
     	\renewcommand{\arraystretch}{1.5}
-    	\begin{tabularx}{\textwidth}{|X|X|X|}
+    	\begin{tabularx}{1.3\textwidth}{|X|X|X|}
     		\hline
-    		Wiki & Avantages 2 & Inconvénients 3 \\ 
+    		Wiki & Avantages & Inconvénients \\ 
     		\hline
     		\textbf{DokuWiki} & Léger, pas besoin de base de données,  bon contrôle des accès, support LDAP. & Interface de base au design moins moderne. \\
     		\hline
@@ -38,20 +40,21 @@ Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevo
     		\textbf{XWiki} & Très complet, bon support des macros et extensions. & Installation plus complexe. \\
     		\hline
     \end{tabularx}
-    
+     \end{table}
 \end{itemize}
 
 
 
 \justify{
-	Choix du Moteur de Wiki : \textbf{Wiki.Js} \newline
+	Moteur de Wiki choisi : \textbf{Wiki.Js} \newline
 	\begin{itemize}
-		\item Support de plusieurs méthode d'authentification (dont LDAP et SAML 2.0) 
-		\item Gratuit : Open-source sous licence AGPL
-		\item Gestion avancé des utilisateurs
-		\item Facilement installable et déployable sur de nombreuses plateforme serveur et support d'un SGBD déja maitrisé : PostgreSQL
-		\item Beaucoup de fonctionnalités incluse
-		\item Support et communauté
+		\item Interface intuitive
+		\item Support de plusieurs méthodes d'authentification (dont LDAP et SAML 2.0) 
+		\item Licence Gratuit : Open-source sous licence AGPL
+		\item Gestion avancée des utilisateurs
+		\item Facilement installable et déployable sur de nombreuses plateformes serveur et support d'un SGBD déjà maîtrisé : PostgreSQL
+		\item Beaucoup de fonctionnalités incluses
+		\item Programmé contre les failles de sécurité avec possibilité de faire des retours en cas de vulnérabilités constatées
 	\end{itemize}
 	
 	
