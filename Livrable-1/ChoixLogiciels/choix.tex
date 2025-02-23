@@ -1,13 +1,177 @@
 \documentclass[../Livrable1.tex]{subfiles}
-
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{graphicx}  % Nécessaire pour \resizebox
 
 \begin{document}
-\begin{itemize}
-    \item Os pour serveurs : 
-    \item Os pour poste de travail :
-    \item Proxmox :
-    \item Serveur web :
-    \item Supervision du réseaux :
-    \item SIEM : 
-\end{itemize}
+
+\section*{1. Supervision et Logs}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+            \hline
+            \textbf{Critères} & \textbf{systemd-journald} & \textbf{Nagios} & \textbf{Icinga} & \textbf{Zabbix} & \textbf{Centreon} & \textbf{Thruk} & \textbf{Shinken} \\
+            \hline
+            Facilité d'installation & Facile & Complexe & Moyenne & Moyenne & Moyenne & Peu doc. & Moyenne \\
+            Interface Web & Non & Oui & Oui & Oui & Oui & Oui & Oui \\
+            Supervision réseau & Non & Oui & Oui & Oui & Oui & Oui & Oui \\
+            Alertes et notifications & Non & Basique & Oui & Très avancé & Oui & Oui & Oui \\
+            Performance & Très bonne & Limité & Bonne & Très bonne & Bonne & Bonne & Bonne \\
+            Scalabilité & Local & Limité & Moyenne & Très bonne & Très bonne & Moyenne & Moyenne \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des outils de supervision et logs}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion :} Zabbix est le choix idéal car il offre une 
+\textbf{supervision complète avec alertes avancées}.  
+
+\textbf{Alternative :} Centreon si on veut une interface plus simple pour les grandes entreprises.
+
+\vspace{1cm}
+
+\section*{2. OS pour postes de travail}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+            \hline
+            \textbf{Critères} & \textbf{Windows} & \textbf{MacOS} & \textbf{Ubuntu} & \textbf{Debian} \\
+            \hline
+            Facilité d'utilisation & Très facile & Très facile & Moyenne & Plus technique \\
+            Compatibilité matérielle & Très large & Matériel Apple & Large & Large \\
+            Infra compatible & Windows/Mac & Mac uniquement & Windows/Linux & Windows/Linux \\
+            Sécurité & Bonne (MAJ) & Très bonne & Très bonne & Très bonne \\
+            Support/Doc. & Très actif & Actif & Actif & Actif \\
+            Usage entreprise & Standard & Standard & Devs/serveurs & Serveurs/Devs \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des OS pour postes de travail}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion :} Windows est le choix le plus adapté car il est compatible avec la majorité des logiciels et infrastructures d’entreprise.  
+
+\textbf{Alternative :} Ubuntu pour les environnements Linux ou les postes de développement.
+
+\section*{3. Serveur Web}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|c|c|c|}
+            \hline
+            \textbf{Critères} & \textbf{Apache} & \textbf{Nginx} & \textbf{Caddy} \\
+            \hline
+            Facilité d'installation & Facile & Moyenne & Très facile \\
+            Performance & Bonne & Excellente & Bonne \\
+            Gestion de la charge (Load Balancing) & Oui & Très performant & Basique \\
+            Gestion HTTPS intégrée & Non (besoin de Let's Encrypt) & Oui & Automatique \\
+            Sécurité \& Mises à jour & Bonne & Bonne & Bonne \\
+            Modules \& Extensions & Très nombreuses & Moins nombreuses & Peu d'extensions \\
+            Utilisation en entreprise & Très répandu & Répandu & Moins courant \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des serveurs web}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Apache est le choix idéal} car il est compatible avec tous les logiciels en entreprise et dispose d’une large documentation.
+
+\vspace{1cm}
+
+\section*{4. SIEM}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|c|c|c|c|}
+            \hline
+            \textbf{Critères} & \textbf{Prelude OSS} & \textbf{OSSEC} & \textbf{Wazuh} & \textbf{Apache Metron} \\
+            \hline
+            Facilité d'installation & Complexe & Facile & Facile & Très complexe \\
+            Interface Web & Non & Non & Oui (Dashboard Kibana) & Oui \\
+            Détection des Intrusions (IDS) & Oui & Oui & Oui & Oui \\
+            Corrélation des événements & Avancée & Basique & Bonne & Très avancée \\
+            Analyse en temps réel & Oui & Non & Oui & Oui \\
+            Gestion centralisée des logs & Oui & Non & Oui & Oui \\
+            Scalabilité (adapté aux grandes infrastructures) & Limité & Limité & Évolutif & Très évolutif \\
+            Intégration avec d'autres outils (Elastic, Kibana, etc.) & Non & Non & Oui (Elastic Stack) & Oui \\
+            Communauté \& Support & Faible & Active & Très active & Faible \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des solutions SIEM}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Wazuh :}  
+• Facile à installer et configurer comparé à Metron et Prelude OSS.
+
+\section*{5. Serveur de Fichiers}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|c|c|c|}
+            \hline
+            \textbf{Critères} & \textbf{Samba} & \textbf{NFS (Linux)} & \textbf{Nextcloud} \\
+            \hline
+            Facilité d'installation & Moyenne & Facile & Facile \\
+            Compatibilité OS & Windows \& Linux & Linux & Web \& Mobile \\
+            Gestion des permissions avancées & Oui (ACL, Active Directory) & Limité & Oui \\
+            Partage multi-utilisateurs & Oui & Oui & Oui \\
+            Sécurité (Chiffrement, Authentification) & Oui & Basique & Très sécurisé \\
+            Performance sur gros volumes & Bonne & Excellente & Moins adapté \\
+            Support \& Documentation & Très actif & Actif & Actif \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des solutions de serveurs de fichiers}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Samba est le plus adapté} car il supporte Active Directory, Windows/Linux et offre une bonne gestion des permissions.
+
+\vspace{1cm}
+
+\section*{6. Authentification Centralisée (LDAP)}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|c|c|c|c|}
+            \hline
+            \textbf{Critères} & \textbf{OpenLDAP} & \textbf{FreeIPA} & \textbf{389 Directory Server} & \textbf{Microsoft AD} \\
+            \hline
+            Facilité d'installation & Complexe & Moyenne & Complexe & Facile (Windows) \\
+            Interface Web & Non & Oui & Oui & Oui \\
+            Intégration Active Directory & Non & Partielle & Partielle & Native \\
+            Sécurité et Authentification & Bonne & Très bonne & Bonne & Très avancée (Kerberos) \\
+            Gestion des permissions avancées & Oui & Oui & Oui & Oui (GPO, ACL avancées) \\
+            Utilisation en entreprise & Courant & Moyen & Moins courant & Standard \\
+            Support \& Documentation & Actif & Actif & Plus limité & Très actif (Microsoft) \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des solutions LDAP}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Microsoft Active Directory est le plus adapté}, car il est déjà largement utilisé en entreprise et intègre de nombreuses fonctionnalités de sécurité et de gestion.
+
+
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.14)  21 FEB 2025 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.14)  23 FEB 2025 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -136,13 +136,31 @@ Package pdftex.def Info: Architecture/../images/Architecture.jpg  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1]) (./ChoixLogiciels/choix.tex [2 <./Architecture/../images/Architecture.jpg>]) (./ChoixWiki/choixWiki.tex
+[1]) (./ChoixLogiciels/choix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]\OT1/cmr/bx/n/10 systemd-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./Architecture/../images/Architecture.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]\OT1/cmr/m/n/10 Mac unique-
+ []
+
+[3]
+Overfull \hbox (2.50935pt too wide) in paragraph at lines 146--147
+[]\OT1/cmr/bx/n/10 Samba est le plus adapt^^Se \OT1/cmr/m/n/10 car il sup-porte Ac-tive Di-rec-tory, Win-dows/Linux
+ []
+
+[4]) (./ChoixWiki/choixWiki.tex
 Overfull \hbox (7.22272pt too wide) in paragraph at lines 4--6
 \OT1/cmr/m/n/10 nera cette in-fras-tuc-ture r^^Seseau afin qu'il ou elle puisse ^etre en mesure d'administrer
  []
 
 ) (./SolutionsMiseEnOeuvre/solution.tex
-<SolutionsMiseEnOeuvre/../images/7z_chiffrer.png, id=24, 841.1425pt x 321.2pt>
+<SolutionsMiseEnOeuvre/../images/7z_chiffrer.png, id=30, 841.1425pt x 321.2pt>
 File: SolutionsMiseEnOeuvre/../images/7z_chiffrer.png Graphic file (type png)
 <use SolutionsMiseEnOeuvre/../images/7z_chiffrer.png>
 Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/7z_chiffrer.png  used on input line 24.
@@ -151,7 +169,7 @@ Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/7z_chiffrer.png  used o
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SolutionsMiseEnOeuvre/../images/7z_dechiffr.png, id=26, 806.01125pt x 694.595pt>
+<SolutionsMiseEnOeuvre/../images/7z_dechiffr.png, id=32, 806.01125pt x 694.595pt>
 File: SolutionsMiseEnOeuvre/../images/7z_dechiffr.png Graphic file (type png)
 <use SolutionsMiseEnOeuvre/../images/7z_dechiffr.png>
 Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/7z_dechiffr.png  used on input line 30.
@@ -159,7 +177,7 @@ Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/7z_dechiffr.png  used o
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png, id=27, 1927.2pt x 1084.05pt>
+<SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png, id=33, 1927.2pt x 1084.05pt>
 File: SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png Graphic file (type png)
 <use SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png>
 Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png  used on input line 36.
@@ -167,7 +185,7 @@ Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<SolutionsMiseEnOeuvre/../images/element.png, id=28, 1443.89438pt x 776.14969pt>
+<SolutionsMiseEnOeuvre/../images/element.png, id=34, 1443.89438pt x 776.14969pt>
 File: SolutionsMiseEnOeuvre/../images/element.png Graphic file (type png)
 <use SolutionsMiseEnOeuvre/../images/element.png>
 Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/element.png  used on input line 42.
@@ -175,25 +193,25 @@ Package pdftex.def Info: SolutionsMiseEnOeuvre/../images/element.png  used on in
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3] [4 <./SolutionsMiseEnOeuvre/../images/7z_chiffrer.png> <./SolutionsMiseEnOeuvre/../images/7z_dechiffr.png>] [5 <./SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png> <./SolutionsMiseEnOeuvre/../images/element.png>] (./Livrable1.aux)
+) [5] [6 <./SolutionsMiseEnOeuvre/../images/7z_chiffrer.png> <./SolutionsMiseEnOeuvre/../images/7z_dechiffr.png>] [7 <./SolutionsMiseEnOeuvre/../images/Envoi_chiffre.png> <./SolutionsMiseEnOeuvre/../images/element.png>] (./Livrable1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1711 strings out of 476080
- 29918 string characters out of 5792744
- 1933975 words of memory out of 5000000
- 23711 multiletter control sequences out of 15000+600000
+ 1712 strings out of 476080
+ 29926 string characters out of 5792744
+ 1952975 words of memory out of 5000000
+ 23712 multiletter control sequences out of 15000+600000
  562827 words of font info for 52 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 57i,11n,65p,413b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,413b,340s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/tristan/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Livrable1.pdf (7 pages, 722334 bytes).
+Output written on Livrable1.pdf (9 pages, 734145 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
