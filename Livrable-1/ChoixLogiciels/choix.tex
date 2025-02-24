@@ -328,5 +328,33 @@
 \FloatBarrier
 \textbf{Microsoft Active Directory est le plus adapté}, car il est déjà largement utilisé en entreprise et intègre de nombreuses fonctionnalités de sécurité et de gestion. Il est également compatible avec les environnements Windows, MacOS, Linux et tout environnement supportant l'authentification LDAP et SAML 2.0.
 
+\subsection{Virtualisation}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}}
+            \hline
+            \textbf{Critères} & \textbf{OpenStack} & \textbf{Qemu/KVM} & \textbf{libvirt} & \textbf{virsh} \\
+            \hline
+            Facilité d'installation & Très complexe & Moyenne & Facile & Facile \\
+            Performance & Bonne & Excellente & Bonne & Bonne \\
+            Interface Web &  Oui (Horizon) & Non &  Oui (Virt-Manager) & Non \\
+            Gestion des VMs & Très avancée & Bonne & Bonne & Limité \\
+            Utilisation en entreprise & Cloud & Serveurs Linux & Serveurs Linux & Usage technique \\
+            Scalabilité & Très grande & Bonne & Bonne & Limité \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des solutions de virtualisation}
+\end{table}
+
+\vspace{0.5cm}
+
+\textbf{Conclusion : Qemu/KVM est la meilleure solution} car il est \textbf{performant, open-source} et \textbf{flexible} pour les environnements Linux
+
+\vspace{0.5cm}
+
+\textbf{Alternative : OpenStack}si on veut une \textbf{solution cloud complète}
 
 \end{document}
