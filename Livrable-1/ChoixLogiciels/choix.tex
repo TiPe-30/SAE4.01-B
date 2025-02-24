@@ -2,8 +2,36 @@
 \usepackage{hyperref}
 \usepackage{array}
 \usepackage{graphicx}  % Nécessaire pour \resizebox
+\usepackage{placeins}
 
 \begin{document}
+
+\subsection{serveur DNS}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+            \hline
+            \textbf{Critères} & \textbf{Bind9} & \textbf{PowerDNS} & \textbf{Unbound} \\
+            \hline
+            Facilité d'utilisation & Complexe & Moyenne & Facile \\
+            Performance & Bonne & Très bonne & Très bonne \\
+            Sécurité (DNSSEC, DoT, DoH) & Oui & Oui & Oui \\
+            Caching DNS & Oui & Oui & Très performant \\
+            Utilisation en entreprise & Standard & Déployé & Moins courant \\
+            Communauté et Support & Très actif & Actif & Limité \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des logiciel de DNS}
+\end{table}
+
+\vspace{0.5cm}
+
+\FloatBarrier
+
+\textbf{Bind9} est le meilleur choix car il est puissant, standard de l'industrie et très flexible.  
 
 \subsection{Supervision et Logs}
 
@@ -28,10 +56,71 @@
 
 \vspace{0.5cm}
 
+\FloatBarrier
+
 \textbf{Conclusion :} Zabbix est le choix idéal car il offre une \textbf{supervision complète avec alertes avancées}.
 
 \textbf{Alternative :} Centreon si on veut une interface plus simple pour les grandes entreprises.
 
+\subsection{Firewall}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+            \hline
+            \textbf{Critères} & \textbf{pfSense} & \textbf{OPNsense} & \textbf{IPFire} & \textbf{nftables} \\
+            \hline
+            Facilité d'installation & Très facile & Facile & Facile & Complexe (CLI uniquement) \\
+            Interface Web & Oui & Oui & Oui & Non \\
+            Performance	Excellente & Très bonne & Bonne & Excellente \\
+            Support VPN (IPsec, OpenVPN, WireGuard) & Oui & Oui & Basique & Non natif \\
+            Gestion avancée du trafic (QoS, VLANs) & Oui & Oui & Oui & Oui (avec iptables) \\
+            Utilisation en entreprise & Courant & Courant & Moins répandu & Serveurs Linux \\
+            Support et Documentation & Très actif & Actif & Actif & Peu de documentation grand public \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des outils de Firewall}
+\end{table}
+
+\vspace{0.5cm}
+
+\FloatBarrier
+
+\textbf{Conclusion :} Conclusion : pfSense est le meilleur choix car il est complet, simple à utiliser et largement documenté.
+
+\textbf{Alternative :} nftables si on veut un contrôle total en ligne de commande sous Linux.
+
+\subsection{Serveur DHCP}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+            \hline
+            \textbf{Critères} & \textbf{ISC DHCP Server} & \textbf{Kea DHCP} & \textbf{Dnsmasq} \\
+            \hline
+            Facilité d'installation & Moyenne & Moyenne & Très facile \\
+            Gestion des sous-réseaux & Oui & Oui & Basique \\
+            DHCPv6 supporté & Oui & Oui & Partiel \\
+            Haute disponibilité (HA) & Possible & Oui & Non natif \\
+            Utilisation en entreprise & Standard & Standard moderne & Usage limité \\
+            Performance sur gros réseaux & Bonne & Excellente & Limité \\
+            Support et Documentation & Très actif & Actif (remplaçant d'ISC) & Actif \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des logiciel pour le serveur DHCP}
+\end{table}
+
+\vspace{0.5cm}
+
+\FloatBarrier
+
+\textbf{Conclusion :} Kea DHCP est plus moderne et performant que ISC DHCP, tout en étant conçu pour évoluer.
+
+\textbf{Alternative :} Dnsmasq pour un usage léger sur des petits réseaux.
 
 \subsection{OS pour postes de travail}
 
@@ -55,6 +144,8 @@
 \end{table}
 
 \vspace{0.5cm}
+
+\FloatBarrier
 
 \textbf{Conclusion :} Windows est le choix le plus adapté car il est compatible avec la majorité des logiciels et infrastructures d’entreprise.  
 
@@ -84,9 +175,41 @@
 
 \vspace{0.5cm}
 
+\FloatBarrier
+
 \textbf{Apache est le choix idéal} car il est compatible avec tous les logiciels en entreprise et dispose d’une large documentation.
 
 \vspace{1cm}
+
+
+\subsection{Logiciels de Virtualisation}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+            \hline
+            \textbf{Critères} & \textbf{OpenStack} & \textbf{Qemu/KVM} & \textbf{libvirt} & \textbf{virsh} \\
+            \hline
+            Facilité d'installation & Très complexe & Moyenne & Facile & Facile \\
+            Performance & Bonne & Excellente & Bonne & Bonne \\
+            Interface Web & Oui (Horizon) & Non & Oui (Virt-Manager) & Non \\
+            Gestion des VMs & Très avancée & Bonne & Bonne & Limité \\
+            Utilisation en entreprise & Cloud & Serveurs Linux & Serveurs Linux & Usage technique \\
+            Scalabilité & Très grande & Bonne & Bonne & Limité \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des hyperviseurs}
+\end{table}
+
+\vspace{0.5cm}
+
+\FloatBarrier
+
+\textbf{Conclusion :} Qemu/KVM est la meilleure solution car il est performant, open-source et flexible pour les environnements Linux. 
+
+\textbf{Alternative :} OpenStack si on veut une solution cloud complète.
 
 \subsection{SIEM}
 
@@ -113,6 +236,8 @@
 \end{table}
 
 \vspace{0.5cm}
+
+\FloatBarrier
 
 \textbf{Wazuh :}  
 • Facile à installer et configurer comparé à Metron et Prelude OSS.
@@ -141,9 +266,40 @@
 
 \vspace{0.5cm}
 
+\FloatBarrier
+
 \textbf{Samba est le plus adapté} car il supporte Active Directory, Windows/Linux et offre une bonne gestion des permissions. 
 
 \vspace{1cm}
+
+\subsection{Serveur SGBD}
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{|l|p{2.5cm}|p{2.5cm}|p{2.5cm}|p{2.5cm}|}
+            \hline
+            \textbf{Critères} & \textbf{PostgreSQL} & \textbf{MariaDB} \\
+            \hline
+            Facilité d'installation & Moyenne & Facile \\
+            Performance & Excellente & Très bonne \\
+            Support SQL avancé & Très avancé & Moins complet \\
+            Scalabilité & Très évolutif & Évolutif \\
+            Sécurité & Très bonne & Bonne \\
+            Utilisation en entreprise & Très courant & Standard \\
+            \hline
+        \end{tabular}
+    }
+    \caption{Comparaison des logiciel SGBD}
+\end{table}
+
+\vspace{0.5cm}
+
+\FloatBarrier
+
+\textbf{Conclusion :} PostgreSQL est le plus adapté car il offre plus de fonctionnalités avancées et une meilleure évolutivité.
+
+\textbf{Alternative :} MariaDB si on veut une alternative MySQL plus légère et rapide.
 
 \subsection{Authentification Centralisée (LDAP)}
 
@@ -169,6 +325,7 @@
 
 \vspace{0.5cm}
 
+\FloatBarrier
 \textbf{Microsoft Active Directory est le plus adapté}, car il est déjà largement utilisé en entreprise et intègre de nombreuses fonctionnalités de sécurité et de gestion. Il est également compatible avec les environnements Windows, MacOS, Linux et tout environnement supportant l'authentification LDAP et SAML 2.0.
 
 
