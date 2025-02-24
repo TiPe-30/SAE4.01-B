@@ -1,11 +1,13 @@
 \documentclass[../Livrable1.tex]{subfiles}
 \usepackage{tabularx}
 \usepackage{multicol}
+\usepackage{ragged2e}
+
 \begin{document}
 	
-
-Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un
-intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
+\justify{
+Dans le cadre de la mise en oeuvre de cette infrastructure, nous devrons concevoir un wiki détaillé expliquant à un intervenant extérieur comment fonctionnera cette infrastructure réseau afin qu'il ou elle puisse être en mesure d'administrer ce réseau.
+}
 
 \begin{itemize}
     \item Critères de Choix :
@@ -22,21 +24,40 @@ intervenant exterieur comment fonctionnera cette infrastucture réseau afin qu'i
 
     \item Comparaison des solutions :
     	
-    	\renewcommand{\arraystretch}{1.5}
-    	\begin{tabularx}{\textwidth}{|X|X|X|}
-    		\hline
-    		Wiki & Avantages 2 & Inconvénients 3 \\ 
-    		\hline
-    		\textbf{DokuWiki} & Léger, pas besoin de base de données,  bon contrôle des accès, support LDAP. & Interface de base au design moins moderne. \\
-    		\hline
-    		\textbf{MediaWiki} & Utilisé par Wikipedia, puissant, support des extensions, bonne gestion des droits. & Configuration plus lourde, nécessite MySQL/PostgreSQL. \\
-    		\hline
-    		\textbf{Wiki.Js} & Moderne, supporte Markdown, bonne intégration LDAP/SSO, interface intuitive. & Plus lourd, nécessite une base de données et Node.js. \\
-    		\hline
-    		\textbf{XWiki} & Très complet, bon support des macros et extensions. & Installation plus complexe. \\
-    		\hline
-    \end{tabularx}
+    	\begin{table}[h]
+			\centering
+    		\renewcommand{\arraystretch}{1.5}
+    		\begin{tabularx}{1\textwidth}{|X|X|X|}
+    			\hline
+    			\textbf{Wiki} & \textbf{Avantages} & \textbf{Inconvénients} \\ 
+    			\hline
+    			\textbf{DokuWiki} & Léger, pas besoin de base de données,  bon contrôle des accès, support LDAP. & Interface de base au design moins moderne. \\
+    			\hline
+    			\textbf{MediaWiki} & Utilisé par Wikipedia, puissant, support des extensions, bonne gestion des droits. & Configuration plus lourde, nécessite MySQL/PostgreSQL. \\
+    			\hline
+    			\textbf{Wiki.Js} & Moderne, supporte Markdown, bonne intégration LDAP/SSO, interface intuitive. & Plus lourd, nécessite une base de données et Node.js. \\
+    			\hline
+    			\textbf{XWiki} & Très complet, bon support des macros et extensions. & Installation plus complexe. \\
+    			\hline
+    		\end{tabularx}
+    	\end{table}
 \end{itemize}
 
+
+
+\justify{
+	Moteur de Wiki choisi : \textbf{Wiki.Js} \newline
+	\begin{itemize}
+		\item Interface intuitive
+		\item Support de plusieurs méthodes d'authentification (dont LDAP et SAML 2.0) 
+		\item Licence Gratuit : Open-source sous licence AGPL
+		\item Gestion avancée des utilisateurs
+		\item Facilement installable et déployable sur de nombreuses plateformes serveur et support d'un SGBD déjà maîtrisé : PostgreSQL
+		\item Beaucoup de fonctionnalités incluses
+		\item Programmé contre les failles de sécurité avec possibilité de faire des retours en cas de vulnérabilités constatées
+	\end{itemize}
+	
+Ainsi, étant donnée l'objectif de ce wiki, Wiki.Js s'est révélé être le choix le plus pertinent pour répondre aux exigences de ce projet.
+}
 
 \end{document}
