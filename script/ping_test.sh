@@ -27,7 +27,7 @@ for adresse in "$@";
 for ip_adress in "$@"; 
   do
 
-    if ping -c 1 -w 1 "$ip_adress" &> /dev/null;
+    if ping -w 1 "$ip_adress" &> /dev/null;
       then
         echo "$USER communique correctement avec $ip_adress"
       else
