@@ -13,13 +13,15 @@ if [[ $# -lt 1 ]];
 
 # Vérification des adresses IPv4
 regex_ip='^([0-9]{1,3}\.){3}[0-9]{1,3}$'
+numArg=1
 
 for adresse in "$@"; 
  do
     if ! [[ $adresse =~ $regex_ip ]]; then
-        echo "Adresse IP invalide : $adresse"
+        echo "Argument $numArg adresse IP invalide : $adresse"
         exit 2
     fi
+    (( numArg++ ))
  done
 
 for ip_adress in "$@"; 
