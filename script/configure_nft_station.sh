@@ -55,7 +55,9 @@ table ip filter {
 }
 FILE
 
-#nft add rule
+#nft add rule filtrage input ct state established accept
+#nft add rule filtrage outptut ct state established accept
+#nft add rule filter input ip tcp flags != syn drop
 #nft add rule filter input drop
     
 }
