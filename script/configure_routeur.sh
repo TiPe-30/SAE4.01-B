@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#configuration des vlan
-su 
+read -r -p "Entrez l'interface sur laquelle vous souhaitez créer les vlan : " interface
 
 cat <<DEB >> /etc/sysctl.conf
 
@@ -18,8 +17,8 @@ echo "8021q" | sudo tee -a /etc/modules
 # configuration du vlan pour les utilisateurs
 cat <<USER >> /etc/network/interfaces
 
-auto eth0.10
-iface eth0.10 inet static
+auto $interface.10
+iface $interface.10 inet static
     address 10.0.10.1
     netmask 255.255.255.0
     vlan-raw-device eth0
@@ -30,8 +29,8 @@ USER
 
 cat <<ADMIN >> /etc/network/interfaces
 
-auto eth0.20
-iface eth0.20 inet static
+auto $interface.20
+iface $interface.20 inet static
     address 10.0.20.1
     netmask 255.255.255.0
     vlan-raw-device eth0
@@ -42,8 +41,8 @@ ADMIN
 
 cat <<SERV >> /etc/network/interfaces
 
-auto eth0.30
-iface eth0.30 inet static
+auto $interface.30
+iface $interface.30 inet static
     address 10.0.30.1
     netmask 255.255.255.0
     vlan-raw-device eth0
@@ -54,8 +53,8 @@ SERV
 
 cat <<DMZ >> /etc/network/interfaces
 
-auto eth0.40
-iface eth0.40 inet static
+auto $interface.40
+iface $interface.40 inet static
     address 10.0.40.1
     netmask 255.255.255.0
     vlan-raw-device eth0
