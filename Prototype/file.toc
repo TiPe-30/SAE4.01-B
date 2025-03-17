@@ -1,5 +1,4 @@
-\contentsline {section}{\numberline {1}Routeur}{1}{}%
-\contentsline {subsection}{\numberline {1.1}mise en place du routeur principal}{1}{}%
-\contentsline {subsection}{\numberline {1.2}DMZ}{1}{}%
-\contentsline {section}{\numberline {2}Mise en place des serveurs dns}{1}{}%
-\contentsline {section}{\numberline {3}Mise en place des par feu pour chaque station}{1}{}%
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}Rappel et évolution sur l'architecture}{1}{}%
+\contentsline {section}{\numberline {3}Ressources utilisées}{1}{}%
+\contentsline {section}{\numberline {4}Documentation Technique}{1}{}%
