@@ -20,6 +20,8 @@ fi
 
 echo "8021q" | sudo tee -a /etc/modules
 
+cp /etc/network/interfaces /etc/network/interfaces.bak
+
 # configuration du vlan pour les utilisateurs
 cat <<USER >> /etc/network/interfaces
 
