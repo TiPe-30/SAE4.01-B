@@ -27,7 +27,6 @@ auto $interface.10
 iface $interface.10 inet static
     address 10.0.10.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 USER
 
@@ -39,7 +38,6 @@ auto $interface.20
 iface $interface.20 inet static
     address 10.0.20.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 ADMIN
 
@@ -51,7 +49,6 @@ auto $interface.30
 iface $interface.30 inet static
     address 10.0.30.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 SERV
 
@@ -63,7 +60,6 @@ auto $interface.40
 iface $interface.40 inet static
     address 10.0.40.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 DMZ
 
