@@ -1,5 +1,22 @@
 #!/bin/bash
 
+if ! dpkg -l | grep kea-dhcp4-server &> /dev/null;
+  then 
+    apt install kea-dhcp4-server
+  fi
+
+if ! systemctl is-active kea-dhcp4-server --quiet;
+  then 
+    systemctl enable kea-dhcp4-server
+    systemctl start kea-dhcp4-server
+    systemctl restart kea-dhcp4-server
+  fi
+
+# on créé un backup du fichier
+mv /etc/kea/kea-dhcp4.conf /etc/kea/kea-dhcp4.conf.bkp
+
+# configuration du fichier du serveur
+
 read -r -p "Entrez l'interface que vous souhaitez configurer : " interface
 
 read -r -p "Entrez l'adresse du réseau en notation CIDR(ex : 192.168.13.24/24) : " reseau
@@ -12,7 +29,8 @@ read -r addrFin
 
 read -r -p "Entrez l'adresse ip du serveur DNS : " dns
 
-cat <<DHCP
+
+cat <<DHCP > /etc/kea/kea-dhcp4.conf
 
 {
     "Dhcp4": {
@@ -59,3 +77,5 @@ cat <<DHCP
 }
 
 DHCP
+
+systemctl restart kea-dhcp4-server.service

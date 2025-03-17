@@ -1,8 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1741258068.32784 "/home/tristan/SAE4.01-B/Prototype/file.tex" "file.pdf" "file" 1741258068.54075 0
-  "../Livrable-1/images/Logo-project.jpeg" 1739550146 90621 79ec7a6403266f436db4b2f668a3c382 ""
+["pdflatex"] 1742216936.33095 "/home/tristan/SAE4.01-B/Prototype/file.tex" "file.pdf" "file" 1742216936.64846 0
   "/etc/texmf/web2c/texmf.cnf" 1740942388.45652 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/tristan/SAE4.01-B/Prototype/file.tex" 1741258067.92792 1235 1117a6d5fe50abde4f87001af6636102 ""
+  "/home/tristan/SAE4.01-B/Prototype/file.tex" 1742216935.571 1178 f9029033a7c10872a634c24b9a2bdc89 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -44,9 +43,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1740945894.49979 165051 331a4b0cc8c79ccd6b2fbd918be026fc ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1740945926 6837955 fd47c20ee9e2b9c4724b0e2529bbd28a ""
-  "file.aux" 1741258068.50693 601 2c15242f0fbc875f723513e40f79e5ca "pdflatex"
-  "file.tex" 1741258067.92792 1235 1117a6d5fe50abde4f87001af6636102 ""
-  "file.toc" 1741258068.50693 364 2e6dc5460d6c07bcc03271eaf0beb992 "pdflatex"
+  "Images/Logo-project.jpeg" 1742215665.50008 90621 79ec7a6403266f436db4b2f668a3c382 ""
+  "file.aux" 1742216936.595 479 a1431b35188f7c9bf72c6e87d8478f98 "pdflatex"
+  "file.tex" 1742216935.571 1178 f9029033a7c10872a634c24b9a2bdc89 ""
+  "file.toc" 1742216936.596 283 9edac5ac1f4fff00d6a3a56d21c197b5 "pdflatex"
   (generated)
   "file.aux"
   "file.log"

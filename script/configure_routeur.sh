@@ -1,7 +1,12 @@
 #!/bin/bash
 
-#configuration des vlan
-su 
+read -r -p "Entrez l'interface sur laquelle vous souhaitez créer les vlan : " interface
+
+if ! ip addr | grep "$interface" &> /dev/null;
+  then
+    echo "Erreur, votre interface n'existe pas !"
+    exit 1
+  fi
 
 cat <<DEB >> /etc/sysctl.conf
 
@@ -15,14 +20,15 @@ fi
 
 echo "8021q" | sudo tee -a /etc/modules
 
+cp /etc/network/interfaces /etc/network/interfaces.bak
+
 # configuration du vlan pour les utilisateurs
 cat <<USER >> /etc/network/interfaces
 
-auto eth0.10
-iface eth0.10 inet static
+auto $interface.10
+iface $interface.10 inet static
     address 10.0.10.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 USER
 
@@ -30,11 +36,10 @@ USER
 
 cat <<ADMIN >> /etc/network/interfaces
 
-auto eth0.20
-iface eth0.20 inet static
+auto $interface.20
+iface $interface.20 inet static
     address 10.0.20.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 ADMIN
 
@@ -42,11 +47,10 @@ ADMIN
 
 cat <<SERV >> /etc/network/interfaces
 
-auto eth0.30
-iface eth0.30 inet static
+auto $interface.30
+iface $interface.30 inet static
     address 10.0.30.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 SERV
 
@@ -54,17 +58,14 @@ SERV
 
 cat <<DMZ >> /etc/network/interfaces
 
-auto eth0.40
-iface eth0.40 inet static
+auto $interface.40
+iface $interface.40 inet static
     address 10.0.40.1
     netmask 255.255.255.0
-    vlan-raw-device eth0
 
 DMZ
 
-
 sudo systemctl enable networking
-
 
 # configurer le par-feu nftables
 
@@ -101,9 +102,9 @@ FILE
 
 systemctl enable nftables.service
 systemctl start nftables.service
-systemctl restart ntfables.service
+systemctl restart nftables.service
 
 # ajout des règles du par feu par la suite
 
-
+# nft add rule filter input ...
 

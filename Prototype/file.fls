@@ -63,12 +63,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT ../Livrable-1/images/Logo-project.jpeg
-INPUT ../Livrable-1/images/Logo-project.jpeg
-INPUT ../Livrable-1/images/Logo-project.jpeg
-INPUT ../Livrable-1/images/Logo-project.jpeg
+INPUT ./Images/Logo-project.jpeg
+INPUT ./Images/Logo-project.jpeg
+INPUT ./Images/Logo-project.jpeg
+INPUT ./Images/Logo-project.jpeg
 OUTPUT file.pdf
-INPUT ../Livrable-1/images/Logo-project.jpeg
+INPUT ./Images/Logo-project.jpeg
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -77,7 +77,6 @@ INPUT ./file.toc
 INPUT file.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT file.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT file.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

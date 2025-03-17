@@ -37,4 +37,3 @@ for ip_adress in "$@";
   done
 
 
-
