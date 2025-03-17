@@ -61,9 +61,7 @@ iface $interface.40 inet static
 
 DMZ
 
-
 sudo systemctl enable networking
-
 
 # configurer le par-feu nftables
 
@@ -100,7 +98,7 @@ FILE
 
 systemctl enable nftables.service
 systemctl start nftables.service
-systemctl restart ntfables.service
+systemctl restart nftables.service
 
 # ajout des règles du par feu par la suite
 
