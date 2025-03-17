@@ -2,6 +2,12 @@
 
 read -r -p "Entrez l'interface sur laquelle vous souhaitez créer les vlan : " interface
 
+if ! ip addr | grep "$interface" &> /dev/null;
+  then
+    echo "Erreur, votre interface n'existe pas !"
+    exit 1
+  fi
+
 cat <<DEB >> /etc/sysctl.conf
 
 net.ipv4.ip_forward=1
