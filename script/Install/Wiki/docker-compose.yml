@@ -1,0 +1,27 @@
+services:
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: wiki
+      POSTGRES_PASSWORD: wikijsrocks
+      POSTGRES_USER: wikijs
+    logging:
+      driver: none
+    restart: unless-stopped
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  wiki:
+    image: requarks/wiki
+    depends_on:
+      - db
+    restart: unless-stopped
+    volumes:
+      - ./config.yml:/wiki/config.yml
+    ports:
+      - "8080:8080"
+
+
+volumes:
+  db-data:
