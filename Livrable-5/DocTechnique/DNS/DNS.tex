@@ -1,0 +1,27 @@
+\documentclass[../Livrable1.tex]{subfiles}
+\documentclass{article}
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{ragged2e} % Ajout du package pour la justification
+\usepackage[french]{babel}
+\begin{document}
+	
+	
+	\subsection{DNS Interne}
+	
+	Ce réseau abrite un contrôleur de domaine Active Directory responsable de la gestion du domaine \textbf{local.pleter.ovh}. Afin d'assurer un fonctionnement optimal du domaine, il est recommandé que la gestion des domaines soit confiée au serveur DNS de Windows Server. Toutefois, pour éviter toute surcharge du serveur principal et garantir la redondance, un autre serveur DNS sera déployés pour l'ensemble de l'infrastructure. Un mécanisme de transfert de zone DNS sera mis en place via IXFR et sécurisé par TSIG. Ainsi, le serveur DNS intégré de Windows Server agira en tant que serveur principal, tandis qu'un serveur DNS Bind9 sera configuré en tant que serveur esclave. Le serveur DNS Bind9 assurera principalement la résolution DNS pour l'infrastructure, mais le serveur DNS Windows Server restera accessible comme serveur secondaire. Pour renforcer la sécurité des requêtes DNS, le protocole DoH (DNS over HTTPS) sera implémenté sur les deux serveurs DNS. Ces serveurs fonctionneront également en tant que résolveurs DNS récursifs et garantiront l'authenticité des réponses grâce à DNSSEC.
+	
+	
+	
+	\subsection{DNS Externe}
+	
+	L'infrastructure comprend une DMZ avec plusieurs serveurs de PLETER. Afin de garantir un accès fluide à ces serveurs depuis Internet via un nom de domaine, un serveur DNS Bind9 sera déployé dans la DMZ pour gérer la résolution des noms \textbf{*.pleter.ovh}. Il ne couvrira toutefois pas le sous-domaine interne \textbf{local.pleter.ovh}. Pour assurer l'intégrité des réponses, ce serveur mettra en œuvre DNSSEC sur sa zone, tout en proposant les services DoH et DoT (DNS over TLS) pour sécuriser les communications.
+
+
+
+
+	
+\end{document}

@@ -1,5 +1,28 @@
-\documentclass[../Livrable1.tex]{subfiles}
-
+\documentclass[../file.tex]{subfiles}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \begin{document}
-	
+
+\section{Introduction}
+Comme dit précédemment la mise en place d'un routeur sur proxomox est complexe, c'est pour cela qu'on ne l'a pas encore mis en place. Ce document décrit donc le fonctionnement d'un script Bash à configurer un routeur qui segmentera le réseau en plusieurs VLAN. Le script met en place la transmission IPv4, installe les paquets nécessaires, configure plusieurs interfaces virtuelles associées aux VLAN, et initialise un pare-feu \texttt{nftables}.
+
+\section{Structure du Script}
+Le script est séparé en 5 étapes : sélection de l’interface, configuration du routage IPv4, installation du support VLAN, configuration des VLAN, et mise en place du pare-feu.
+\begin{itemize}
+    \item sélection de l’interface réseau : On demande à l'utilisateur l'interface cible puis vérifie sont existence
+    \item Activation du routage IPv4, en ajoutant la ligne \texttt{net.ipv4.ip_forward=1} à \texttt{/etc/sysctl.conf} on active le routage IPv4
+    \item Installation et configuration des VLAN : Le script vérifie et installe le paquet pour les VLAN si nécessaire, il segmente ensuite le réseau comme préciser dans notre architecture
+    \item 
+\end{itemize}
+
+\section{Tests et Validation}
+Après exécution du script, on pourra vérifier les points suivants avec les autre script qu'on a crée :
+\begin{itemize}
+    \item Connectivité entre les VLAN.
+    \item Vérification du routage IPv4
+\end{itemize}
+
+\section{Conclusion}
+Pour l'instant nous n'avons pas de routeur mais on executera ce script qui permet de configurer un routeur pour un réseau segmenté en VLAN. Il faudra ensuite configurer un Pare-feu pour sécuriser ce routeur
+
 \end{document}
