@@ -1,163 +1,17 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  20 MAR 2025 10:34
-=======
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  20 MAR 2025 10:29
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-<<<<<<< HEAD
-**c:/Users/Trukh/Documents/Info/SAE4.01/SAE4.01-B/Livrable-5/file
-(c:/Users/Trukh/Documents/Info/SAE4.01/SAE4.01-B/Livrable-5/file.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count196
-\c@section=\count197
-\c@subsection=\count198
-\c@subsubsection=\count199
-\c@paragraph=\count266
-\c@subparagraph=\count267
-\c@figure=\count268
-\c@table=\count269
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (c:/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
-Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (c:/texlive/2024/texmf-dist/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-)) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen142
-\Gin@req@width=\dimen143
-) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip51
-\f@nch@offset@elh=\skip52
-\f@nch@offset@erh=\skip53
-\f@nch@offset@olh=\skip54
-\f@nch@offset@orh=\skip55
-\f@nch@offset@elf=\skip56
-\f@nch@offset@erf=\skip57
-\f@nch@offset@olf=\skip58
-\f@nch@offset@orf=\skip59
-\f@nch@height=\skip60
-\f@nch@footalignment=\skip61
-\f@nch@widthL=\skip62
-\f@nch@widthC=\skip63
-\f@nch@widthR=\skip64
-\@temptokenb=\toks18
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
- (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen144
-\ar@mcellbox=\box52
-\extrarowheight=\dimen145
-\NC@list=\toks19
-\extratabsurround=\skip65
-\backup@length=\skip66
-\ar@cellbox=\box53
-)
-\TX@col@width=\dimen146
-\TX@old@table=\dimen147
-\TX@old@col=\dimen148
-\TX@target=\dimen149
-\TX@delta=\dimen150
-\TX@cols=\count270
-\TX@ftn=\toks20
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count271
-\lst@gtempboxa=\box54
-\lst@token=\toks21
-\lst@length=\count272
-\lst@currlwidth=\dimen151
-\lst@column=\count273
-\lst@pos=\count274
-\lst@lostspace=\dimen152
-\lst@width=\dimen153
-\lst@newlines=\count275
-\lst@lineno=\count276
-\lst@maxwidth=\dimen154
- (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count277
-\lst@skipnumbers=\count278
-\lst@framebox=\box55
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
-))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/02/02 v25.3 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
-\babel@savecnt=\count279
-\U@D=\dimen155
-\l@unhyphenated=\language90
- (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count280
- (c:/texlive/2024/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2024-07-25 v3.6c French support from the babel system
-Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language32). Reported on input line 91.
-Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language32). Reported on input line 92.
-\FB@stdchar=\count281
-Package babel Info: Making : an active character on input line 421.
-Package babel Info: Making ; an active character on input line 422.
-Package babel Info: Making ! an active character on input line 423.
-Package babel Info: Making ? an active character on input line 424.
-\FBguill@level=\count282
-\FBold@everypar=\toks22
-\FB@Mht=\dimen156
-\mc@charclass=\count283
-\mc@charfam=\count284
-\mc@charslot=\count285
-\std@mcc=\count286
-\dec@mcc=\count287
-\FB@parskip=\dimen157
-\listindentFB=\dimen158
-\descindentFB=\dimen159
-\labelindentFB=\dimen160
-\labelwidthFB=\dimen161
-\leftmarginFB=\dimen162
-\parindentFFN=\dimen163
-\FBfnindent=\dimen164
-)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
-Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 11.
-) (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box56
-=======
-**"/Users/idk/Documents/cours/Admin Sys/SAE4.01-B/Livrable-5/file.tex"
-(/Users/idk/Documents/cours/Admin Sys/SAE4.01-B/Livrable-5/file.tex
+**"/Users/idk/Documents/cours/Admin Sys/SAE4.01-B/Livrable-5/DocTechnique/routeurs/routeurs.tex"
+(/Users/idk/Documents/cours/Admin Sys/SAE4.01-B/Livrable-5/DocTechnique/routeurs/routeurs.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../../file.tex'
+(/usr/local/texlive/2024/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (../../file.tex (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
@@ -175,9 +29,7 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \bibindent=\dimen140
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
@@ -287,51 +139,28 @@ Package babel Info: Making ? an active character on input line 423.
 )) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty))) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 \l__pdf_internal_box=\box55
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
 )
-No file file.aux.
-\openout1 = `file.aux'.
+No file routeurs.aux.
+\openout1 = `routeurs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-<<<<<<< HEAD
-(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen165
-\scratchbox=\box57
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen166
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks24
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-\c@lstlisting=\count295
-=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count281
@@ -352,81 +181,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count287
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
-LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \degres on input line 3.
 
 
 Package french.ldf Warning: Please load the "listings" package
-(french.ldf)                AFTER babel/french; reported on input line 15.
+(french.ldf)                AFTER babel/french; reported on input line 3.
 
-LaTeX Info: Redefining \up on input line 15.
+LaTeX Info: Redefining \up on input line 3.
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 15.
+(french.ldf)                of your document; reported on input line 3.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
-<Images/Logo-project.jpeg, id=1, 321.2pt x 240.9pt>
-File: Images/Logo-project.jpeg Graphic file (type jpg)
-<use Images/Logo-project.jpeg>
-Package pdftex.def Info: Images/Logo-project.jpeg  used on input line 24.
-(pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
-
-
-[1
-
-<<<<<<< HEAD
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-project.jpeg>]
-=======
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-project.jpeg>]
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
-No file file.toc.
-\tf@toc=\write3
-\openout3 = `file.toc'.
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
-[2] (./Introduction/introduction.tex) (./architecture.tex
-<Images/Architecture.png, id=13, 2480.26625pt x 1198.4775pt>
-File: Images/Architecture.png Graphic file (type png)
-<use Images/Architecture.png>
-Package pdftex.def Info: Images/Architecture.png  used on input line 12.
-(pdftex.def)             Requested size: 345.0pt x 166.68846pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-<Images/Ressource.png, id=14, 1449.91687pt x 560.0925pt>
-File: Images/Ressource.png Graphic file (type png)
-<use Images/Ressource.png>
-Package pdftex.def Info: Images/Ressource.png  used on input line 54.
-(pdftex.def)             Requested size: 345.0pt x 133.2712pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<<<<<<< HEAD
-
-
-[1] (./DocTechnique/DNS/DNS.tex
-
-[2 <./Images/Architecture.png> <./Images/Ressource.png (PNG copy)>])
-
-[3] (./file.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-=======
-[1] (./DocTechnique/DNS/DNS.tex [2 <./Images/Architecture.png> <./Images/Ressource.png (PNG copy)>]) (./DocTechnique/routeurs/routeurs.tex [3]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -598,42 +364,27 @@ Overfull \hbox (213.04295pt too wide) in paragraph at lines 12--15
 \OML/cmm/m/it/10 Lescriptv[]rifieetinstallelepaquetpourlesVLANsin[]cessaire; ilsegmenteensuiteler[]seaucommepr[]cis[]dansnotrearchitecture:$ 
  []
 
-) [4] (./file.aux)
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./routeurs.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5232 strings out of 473201
- 88897 string characters out of 5720299
- 499998 words of memory out of 5000000
- 28454 multiletter control sequences out of 15000+600000
- 563393 words of font info for 51 fonts, out of 8000000 for 9000
+ 4872 strings out of 474116
+ 79252 string characters out of 5743682
+ 1932187 words of memory out of 5000000
+ 27224 multiletter control sequences out of 15000+600000
+ 558674 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1252b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on file.pdf (5 pages, 635704 bytes).
-=======
- 4944 strings out of 474116
- 80534 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 27270 multiletter control sequences out of 15000+600000
- 562625 words of font info for 51 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1257b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on file.pdf (6 pages, 661112 bytes).
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
+ 77i,11n,82p,560b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on routeurs.pdf (1 page, 54324 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
