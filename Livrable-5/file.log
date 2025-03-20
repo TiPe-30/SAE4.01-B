@@ -1,201 +1,51 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  20 MAR 2025 10:34
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.12)  20 MAR 2025 10:29
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.2)  20 MAR 2025 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-<<<<<<< HEAD
-**c:/Users/Trukh/Documents/Info/SAE4.01/SAE4.01-B/Livrable-5/file
-(c:/Users/Trukh/Documents/Info/SAE4.01/SAE4.01-B/Livrable-5/file.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count196
-\c@section=\count197
-\c@subsection=\count198
-\c@subsubsection=\count199
-\c@paragraph=\count266
-\c@subparagraph=\count267
-\c@figure=\count268
-\c@table=\count269
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (c:/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
-Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (c:/texlive/2024/texmf-dist/tex/latex/import/import.sty
-Package: import 2020/04/01  v 6.2
-)) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen142
-\Gin@req@width=\dimen143
-) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip51
-\f@nch@offset@elh=\skip52
-\f@nch@offset@erh=\skip53
-\f@nch@offset@olh=\skip54
-\f@nch@offset@orh=\skip55
-\f@nch@offset@elf=\skip56
-\f@nch@offset@erf=\skip57
-\f@nch@offset@olf=\skip58
-\f@nch@offset@orf=\skip59
-\f@nch@height=\skip60
-\f@nch@footalignment=\skip61
-\f@nch@widthL=\skip62
-\f@nch@widthC=\skip63
-\f@nch@widthR=\skip64
-\@temptokenb=\toks18
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
- (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen144
-\ar@mcellbox=\box52
-\extrarowheight=\dimen145
-\NC@list=\toks19
-\extratabsurround=\skip65
-\backup@length=\skip66
-\ar@cellbox=\box53
-)
-\TX@col@width=\dimen146
-\TX@old@table=\dimen147
-\TX@old@col=\dimen148
-\TX@target=\dimen149
-\TX@delta=\dimen150
-\TX@cols=\count270
-\TX@ftn=\toks20
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count271
-\lst@gtempboxa=\box54
-\lst@token=\toks21
-\lst@length=\count272
-\lst@currlwidth=\dimen151
-\lst@column=\count273
-\lst@pos=\count274
-\lst@lostspace=\dimen152
-\lst@width=\dimen153
-\lst@newlines=\count275
-\lst@lineno=\count276
-\lst@maxwidth=\dimen154
- (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count277
-\lst@skipnumbers=\count278
-\lst@framebox=\box55
-) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
-))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/02/02 v25.3 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
-\babel@savecnt=\count279
-\U@D=\dimen155
-\l@unhyphenated=\language90
- (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count280
- (c:/texlive/2024/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2024-07-25 v3.6c French support from the babel system
-Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language32). Reported on input line 91.
-Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language32). Reported on input line 92.
-\FB@stdchar=\count281
-Package babel Info: Making : an active character on input line 421.
-Package babel Info: Making ; an active character on input line 422.
-Package babel Info: Making ! an active character on input line 423.
-Package babel Info: Making ? an active character on input line 424.
-\FBguill@level=\count282
-\FBold@everypar=\toks22
-\FB@Mht=\dimen156
-\mc@charclass=\count283
-\mc@charfam=\count284
-\mc@charslot=\count285
-\std@mcc=\count286
-\dec@mcc=\count287
-\FB@parskip=\dimen157
-\listindentFB=\dimen158
-\descindentFB=\dimen159
-\labelindentFB=\dimen160
-\labelwidthFB=\dimen161
-\leftmarginFB=\dimen162
-\parindentFFN=\dimen163
-\FBfnindent=\dimen164
-)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
-Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 11.
-) (c:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box56
-=======
-**"/Users/idk/Documents/cours/Admin Sys/SAE4.01-B/Livrable-5/file.tex"
-(/Users/idk/Documents/cours/Admin Sys/SAE4.01-B/Livrable-5/file.tex
+**/home/tristan/SAE4.01-B/Livrable-5/file.tex
+(/home/tristan/SAE4.01-B/Livrable-5/file.tex
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/import/import.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip50
 \f@nch@O@elh=\skip51
@@ -206,9 +56,9 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip56
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen143
 \ar@mcellbox=\box51
@@ -223,59 +73,57 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@old@col=\dimen147
 \TX@target=\dimen148
 \TX@delta=\dimen149
-\TX@cols=\count196
+\TX@cols=\count195
 \TX@ftn=\toks19
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count197
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count196
 \lst@gtempboxa=\box53
 \lst@token=\toks20
-\lst@length=\count198
+\lst@length=\count197
 \lst@currlwidth=\dimen150
-\lst@column=\count199
-\lst@pos=\count266
+\lst@column=\count198
+\lst@pos=\count199
 \lst@lostspace=\dimen151
 \lst@width=\dimen152
-\lst@newlines=\count267
-\lst@lineno=\count268
+\lst@newlines=\count266
+\lst@lineno=\count267
 \lst@maxwidth=\dimen153
- (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count269
-\lst@skipnumbers=\count270
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count268
+\lst@skipnumbers=\count269
 \lst@framebox=\box54
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/02/21 1.10 listings configuration
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package: listings 2024/02/21 1.10 (Carsten Heinz)
- (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/02/07 v24.2 The Babel package
-\babel@savecnt=\count271
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count270
 \U@D=\dimen154
-\l@unhyphenated=\language89
- (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\l@unhyphenated=\language11
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count272
- (/usr/local/texlive/2024/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2024-02-29 v3.5s French support from the babel system
+\bbl@dirlevel=\count271
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2023-12-19 v3.5r French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language31). Reported on input line 91.
+(babel)             (\language7). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language31). Reported on input line 92.
-\FB@stdchar=\count273
+(babel)             (\language7). Reported on input line 92.
+\FB@stdchar=\count272
 Package babel Info: Making : an active character on input line 420.
 Package babel Info: Making ; an active character on input line 421.
 Package babel Info: Making ! an active character on input line 422.
 Package babel Info: Making ? an active character on input line 423.
-\FBguill@level=\count274
+\FBguill@level=\count273
 \FBold@everypar=\toks21
 \FB@Mht=\dimen155
-\mc@charclass=\count275
-\mc@charfam=\count276
-\mc@charslot=\count277
-\std@mcc=\count278
-\dec@mcc=\count279
+\mc@charclass=\count274
+\mc@charfam=\count275
+\mc@charslot=\count276
+\std@mcc=\count277
+\dec@mcc=\count278
 \FB@parskip=\dimen156
 \listindentFB=\dimen157
 \descindentFB=\dimen158
@@ -284,16 +132,18 @@ Package babel Info: Making ? an active character on input line 423.
 \leftmarginFB=\dimen161
 \parindentFFN=\dimen162
 \FBfnindent=\dimen163
-)) (/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 11.
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
+) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box55
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
+) (./file.aux
+
+LaTeX Warning: Label `fig:solution1' multiply defined.
+
 )
-No file file.aux.
 \openout1 = `file.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -310,49 +160,26 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-<<<<<<< HEAD
-(c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen165
-\scratchbox=\box57
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen166
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks24
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))
-\c@lstlisting=\count295
-=======
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
+\scratchcounter=\count280
 \scratchdimen=\dimen164
 \scratchbox=\box56
-\nofMPsegments=\count282
-\nofMParguments=\count283
+\nofMPsegments=\count281
+\nofMParguments=\count282
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count284
+\MPscratchCnt=\count283
 \MPscratchDim=\dimen165
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks23
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count287
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
+\c@lstlisting=\count286
 LaTeX Info: Redefining \degres on input line 15.
 
 
@@ -376,26 +203,19 @@ File: Images/Logo-project.jpeg Graphic file (type jpg)
 <use Images/Logo-project.jpeg>
 Package pdftex.def Info: Images/Logo-project.jpeg  used on input line 24.
 (pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
-
-
 [1
 
-<<<<<<< HEAD
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-project.jpeg>]
-=======
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-project.jpeg>]
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
-No file file.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-project.jpeg>] (./file.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+)
 \tf@toc=\write3
 \openout3 = `file.toc'.
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
-[2] (./Introduction/introduction.tex) (./architecture.tex
-<Images/Architecture.png, id=13, 2480.26625pt x 1198.4775pt>
+ [2] (./Introduction/introduction.tex) (./architecture.tex
+<Images/Architecture.png, id=15, 2480.26625pt x 1198.4775pt>
 File: Images/Architecture.png Graphic file (type png)
 <use Images/Architecture.png>
 Package pdftex.def Info: Images/Architecture.png  used on input line 12.
@@ -405,7 +225,7 @@ Package pdftex.def Info: Images/Architecture.png  used on input line 12.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-<Images/Ressource.png, id=14, 1449.91687pt x 560.0925pt>
+<Images/Ressource.png, id=16, 1449.91687pt x 560.0925pt>
 File: Images/Ressource.png Graphic file (type png)
 <use Images/Ressource.png>
 Package pdftex.def Info: Images/Ressource.png  used on input line 54.
@@ -414,226 +234,29 @@ Package pdftex.def Info: Images/Ressource.png  used on input line 54.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-
-
-[1] (./DocTechnique/DNS/DNS.tex
-
-[2 <./Images/Architecture.png> <./Images/Ressource.png (PNG copy)>])
-
-[3] (./file.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-=======
-[1] (./DocTechnique/DNS/DNS.tex [2 <./Images/Architecture.png> <./Images/Ressource.png (PNG copy)>]) (./DocTechnique/routeurs/routeurs.tex [3]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.12 ...e IPv4, en ajoutant la ligne `net.ipv4.ip_
-                                                  forward=1` à `/etc/sysctl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 12.
-
-LaTeX Warning: Command \` invalid in math mode on input line 12.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.12 ...outant la ligne `net.ipv4.ip_forward=1` à
-                                                   `/etc/sysctl.conf`, on ac...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13     \item
-               Installation et configuration des VLAN : Le script vérifie e...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13     \item I
-                nstallation et configuration des VLAN : Le script vérifie e...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13     \item I
-                nstallation et configuration des VLAN : Le script vérifie e...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ... et configuration des VLAN : Le script vé
-                                                  rifie et installe le paque...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ...et installe le paquet pour les VLAN si né
-                                                  cessaire, il segmente ensu...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ...si nécessaire, il segmente ensuite le ré
-                                                  seau comme précisé dans ...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ... il segmente ensuite le réseau comme pré
-                                                  cisé dans notre architect...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 13.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ... \let \ignorespaces \relax \accent 
-                                                  #1 #2\egroup \ifmmode \els...
-l.13 ...egmente ensuite le réseau comme précisé
-                                                   dans notre architecture.
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-
-! LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \end{itemize}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \end{itemize}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \end{itemize}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.14 \end{itemize}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (339.21237pt too wide) in paragraph at lines 12--15
-[]\OT1/cmr/m/n/10 Activation du rou-tage IPv4, en ajou-tant la ligne `net.ipv4.ip$[]\OML/cmm/m/it/10 orward \OT1/cmr/m/n/10 = 1`[]`\OML/cmm/m/it/10 =etc=sysctl:conf\OT1/cmr/m/n/10 `\OML/cmm/m/it/10 ; onactiveleroutageIPv\OT1/cmr/m/n/10 4\OML/cmm/m/it/10 :InstallationetconfigurationdesVLAN \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (213.04295pt too wide) in paragraph at lines 12--15
-\OML/cmm/m/it/10 Lescriptv[]rifieetinstallelepaquetpourlesVLANsin[]cessaire; ilsegmenteensuiteler[]seaucommepr[]cis[]dansnotrearchitecture:$ 
- []
-
-) [4] (./file.aux)
+[1] (./DocTechnique/DNS/DNS.tex [2 <./Images/Architecture.png> <./Images/Ressource.png (PNG copy)>]) [3] (./file.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
+L3 programming layer <2024-01-22>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5232 strings out of 473201
- 88897 string characters out of 5720299
- 499998 words of memory out of 5000000
- 28454 multiletter control sequences out of 15000+600000
- 563393 words of font info for 51 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1252b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on file.pdf (5 pages, 635704 bytes).
-=======
- 4944 strings out of 474116
- 80534 string characters out of 5743682
- 1936187 words of memory out of 5000000
- 27270 multiletter control sequences out of 15000+600000
+ 4931 strings out of 476080
+ 79651 string characters out of 5792745
+ 1933975 words of memory out of 5000000
+ 26918 multiletter control sequences out of 15000+600000
  562625 words of font info for 51 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1257b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on file.pdf (6 pages, 661112 bytes).
->>>>>>> 6f4a8bb4f7b52ad149823699c748d9137a7ab26f
+ 59 hyphenation exceptions out of 8191
+ 57i,11n,65p,1232b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on file.pdf (5 pages, 639243 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

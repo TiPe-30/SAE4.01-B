@@ -1,0 +1,17 @@
+# Fdb version 4
+["pdflatex"] 1742467524.80471 "/home/tristan/SAE4.01-B/Livrable-5/architecture.tex" "architecture.pdf" "architecture" 1742467524.9873 2
+  "../file.tex" 0 -1 0 ""
+  "/etc/texmf/web2c/texmf.cnf" 1740942388.45652 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/tristan/SAE4.01-B/Livrable-5/architecture.tex" 1742467524.01699 1097 b693f93047768ffa30c221161a858eb7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/import/import.sty" 1586645574 6201 0ad8b5da8e12f60a88d546b2198a56f2 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.cls" 1605478891 1507 57de335d88fde4e5c924dfed577fdb74 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1740945926 6837955 fd47c20ee9e2b9c4724b0e2529bbd28a ""
+  "architecture.aux" 1742467524.80299 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "architecture.tex" 1742467524.01699 1097 b693f93047768ffa30c221161a858eb7 ""
+  (generated)
+  "architecture.aux"
+  "architecture.log"
+  "architecture.pdf"
+  (rewritten before read)

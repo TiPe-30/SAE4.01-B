@@ -5,7 +5,3 @@
 \contentsline {section}{\numberline {4}Documentation Technique}{3}{}%
 \contentsline {subsection}{\numberline {4.1}DNS Interne}{3}{}%
 \contentsline {subsection}{\numberline {4.2}DNS Externe}{3}{}%
-\contentsline {section}{\numberline {5}Introduction}{3}{}%
-\contentsline {section}{\numberline {6}Structure du Script}{3}{}%
-\contentsline {section}{\numberline {7}Tests et Validation}{4}{}%
-\contentsline {section}{\numberline {8}Conclusion}{4}{}%
