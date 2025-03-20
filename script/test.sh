@@ -1,61 +1,84 @@
 #!/bin/bash
 
-read -r -p "Entrez l'interface que vous souhaitez configurer : " interface
+read -r -p "Entrez l'interface sur laquelle vous souhaitez créer les vlan : " interface
 
-read -r -p "Entrez l'adresse du réseau en notation CIDR(ex : 192.168.13.24/24) : " reseau
+cat <<USER
 
-read -r -p "Entrez l'adresse Ip de votre routeur : " routeur
+auto $interface.10
+iface $interface.10 inet static
+    address 10.0.10.1
+    netmask 255.255.255.0
 
-echo "Entrez la plage d'adresse que vous souhaitez (tapez l'adresse de début + l'adresse de fin) à la suite : "
-read -r addrDebut 
-read -r addrFin
+USER
 
-read -r -p "Entrez l'adresse ip du serveur DNS : " dns
+#configuration du vlan pour les administrateurs
 
-cat <<DHCP
+cat <<ADMIN
 
-{
-    "Dhcp4": {
-        "interfaces-config": {
-            "interfaces": [
-                "$interface"
-            ]
-        },
-        "valid-lifetime": 691200,
-        "renew-timer": 345600,
-        "rebind-timer": 604800,
-        "authoritative": true,
-        "lease-database": {
-            "type": "memfile",
-            "persist": true,
-            "name": "/var/lib/kea/kea-leases4.csv",
-            "lfc-interval": 3600
-        },
-        "subnet4": [
-            {
-                "subnet": "$reseau",
-                "pools": [
-                    {
-                        "pool": "$addrDebut - $addrFin"
-                    }
-                ],
-                "option-data": [
-                    {
-                        "name": "domain-name-servers",
-                        "data": "$dns"
-                    },
-                    {
-                        "name": "domain-search",
-                        "data": "it-connect.local"
-                    },
-                    {
-                        "name": "routers",
-                        "data": "$routeur"
-                    }
-                ]
-            }
-        ]
+auto $interface.20
+iface $interface.20 inet static
+    address 10.0.20.1
+    netmask 255.255.255.0
+
+ADMIN
+
+#configuration du vlan pour le serveur
+
+cat <<SERV
+
+auto $interface.30
+iface $interface.30 inet static
+    address 10.0.30.1
+    netmask 255.255.255.0
+
+SERV
+
+#configuration de la DMZ
+
+cat <<DMZ
+
+auto $interface.40
+iface $interface.40 inet static
+    address 10.0.40.1
+    netmask 255.255.255.0
+
+DMZ
+
+#sudo systemctl enable networking
+
+# configurer le par-feu nftables
+
+cat <<FILE
+#!/usr/sbin/nft -f
+
+flush ruleset
+
+table ip filter {
+    chain input {
+        type filter hook input priority 0; policy accept;
+    }
+
+    chain output{
+        type filter hook output priority 0; policy accept;
+    }
+
+    chain forward{
+        type filter hook forward priority 0; policy accept;
     }
 }
 
-DHCP
+table ip nat {
+    chain prerouting {
+        type nat hook prerouting priority -100; policy accept;
+    }
+
+    chain postrouting {
+        type nat hook postrouting priority 100; policy accept;
+    }
+
+}
+FILE
+
+#systemctl enable nftables.service
+#systemctl start nftables.service
+#systemctl restart nftables.service
