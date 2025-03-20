@@ -47,6 +47,23 @@
 
 \section{Ressources utilisées}
 
+Pour notre SAE nous avons réunis les machines dans un cluster pour interconnecter nos hyperviseurs
+afin de profiter de davantage de ram, de stockage, et de CPU qui sont répartis à travers no hyperviseurs.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{Images/Ressource.png}
+    \caption{Ressource utilisée pour la SAE sous proxmox}
+    \label{fig:solution1}
+\end{figure}
+
+L'avantage de cette configuration par rapport à celle présente sur ASSR, c'est que nous n'avons pas machine virtuelle imbriqué
+cela permet d'améliorer de manière significative les performances. \\
+Le CPU est la ressource qui pose le moins de problème dans notre cas, il en est tout autre pour la RAM.
+Celle ci va devoir être géré de manière équitable entre les hyperviseurs pour eviter une surcharge.
+Le stockage ne devrait pas poser problème outre mesure, mais pourrait le devenir si l'on était dans l'obligation de rajouter 
+des machines.
+
 \section{Documentation Technique}
 
 %inclusion du fichier pour indiquer le DNS
