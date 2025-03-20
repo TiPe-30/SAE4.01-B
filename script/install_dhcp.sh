@@ -23,12 +23,11 @@ read -r -p "Entrez l'adresse du réseau en notation CIDR(ex : 192.168.13.24/24) 
 
 read -r -p "Entrez l'adresse Ip de votre routeur : " routeur
 
-echo "Entrez la plage d'adresse que vous souhaitez (tapez l'adresse de début + l'adresse de fin) à la suite : "
+echo "Entrez la plage d'adresse que vous souhaitez (tapez l'adresse de début puis l'adresse de fin) à la suite : "
 read -r addrDebut 
 read -r addrFin
 
 read -r -p "Entrez l'adresse ip du serveur DNS : " dns
-
 
 cat <<DHCP > /etc/kea/kea-dhcp4.conf
 
