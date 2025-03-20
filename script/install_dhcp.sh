@@ -29,7 +29,6 @@ read -r addrFin
 
 read -r -p "Entrez l'adresse ip du serveur DNS : " dns
 
-
 cat <<DHCP > /etc/kea/kea-dhcp4.conf
 
 {
