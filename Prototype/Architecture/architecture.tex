@@ -14,6 +14,10 @@ entre elles à travers les hyperviseurs de manière transparente.
     \label{fig:solution1}
 \end{figure}
 
-
+Nous avons fait pour le moment qu'une seule modification en la personne des routeurs. Nous n'avons désormais qu'un 
+seul routeur qui permet d'interconnecter les réseaux qui ici sont des vlans, étant donné que nous avons un serveur DHCP 
+par vlan celui ci devra rediriger les requêtes DHCP des machines vers le serveur en question et reciproquement.
+Il y aura également un service DNS tourant dans la DMZ pour assurer la résolutution de nom. Donc deux serveurs DNS, 
+avec celui qui se trouve dans l'intranet des serveurs
 
 \end{document}
