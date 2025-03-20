@@ -1,12 +1,13 @@
 \documentclass[../file.tex]{subfiles}
 \usepackage{graphics}
 
+
 \begin{document}
 	
 Lors de la phase de réflexion du projet, nous avons donc décidé d'utilser proxmox afin de virtualiser
 nos machines virtuelles. Pas de différence dans les logiciels initiale pour cette partie, le but de base 
 était de prendre Qemu sur le serveur interne à notre IUT(Assr) afin de faire tourner une machine virtuelles
-avec suffisament de ressource afin de pouvoir faire tourner notre infrastructure dedans.
+avec suffisament de ressource afin de pouvoir faire tourner notre infrastructure dedans. \\
 Avec proxmox, comme nous avons des hyperviseurs réunit dans un cluser nous amélioront les performances tout en 
 complexifiant la tâche. En effet, les interface de VLAN de proxmox rendent l'approche de configurer des routeurs 
 qui permettent de connecter des VMs à travers les hyperviseurs complexe. Nous avons les VxLan de l'interface proxmox 
