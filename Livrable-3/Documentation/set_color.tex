@@ -1,0 +1,39 @@
+\usepackage{listings}
+\usepackage{xcolor}
+
+\begin{document}
+% Définition des couleurs pour la syntaxe
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Configuration du style Bash
+\lstdefinelanguage{bash}{
+  keywords={if, then, else, fi, for, while, do, done, in, case, esac, function},
+  morekeywords={[2]echo, exit, return, source, exec},
+  morekeywords={[3]cd, mkdir, rm, touch, cp, mv, chmod, chown},
+  sensitive=true,
+  morecomment=[l]{\#},
+  morestring=[b]",
+  morestring=[b]'
+}
+
+\lstset{
+  language=bash,
+  backgroundcolor=\color{backcolour},
+  keywordstyle=\color{blue},
+  keywordstyle=[2]\color{codegreen},
+  keywordstyle=[3]\color{codepurple},
+  commentstyle=\color{codegray},
+  stringstyle=\color{red},
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  numbers=left,
+  numberstyle=\tiny\color{codegray},
+  captionpos=b
+}
+
+
+\end{document}

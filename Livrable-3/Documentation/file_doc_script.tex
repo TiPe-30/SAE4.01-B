@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[french]{babel}
+
+\subfile{set_color.tex}
+
+\begin{document}
+
+Voici un script Bash inclus depuis un fichier :
+\UseRawInputEncoding
+\lstinputlisting[language=bash, caption=Mon script Bash]{../ping_test.sh}
+
+\end{document}

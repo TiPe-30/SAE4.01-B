@@ -17,6 +17,8 @@ for testHost in "$@";
     fi
   done
 
+# communications avec toutes les adresse DNS
+
 for host in "$@";
   do 
     if host "$host" &> /dev/null; then
