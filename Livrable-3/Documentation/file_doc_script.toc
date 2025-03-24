@@ -1,0 +1,6 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Utilisation des scripts}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Utilisation du script dans un terminal}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Implémentation de cette documentation}{1}{}%
+\contentsline {section}{\numberline {2}Test de connectivité intranet entre les machines}{2}{}%
+\contentsline {section}{\numberline {3}Test de communication http avec des sites web}{3}{}%

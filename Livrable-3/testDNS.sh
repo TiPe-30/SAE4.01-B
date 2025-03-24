@@ -2,16 +2,23 @@
 
 if [[ $# -lt 1 ]];
   then 
-    echo "Il faut rentrer des noms de domaines à tester"
-    echo "Ex : $0 wwww.google.com www.facebook.com"
-    exit 10
+  cat <<DOC
+Script pour test de résolution dns
+
+Usage :
+    $0 <destination> ...
+
+Option : 
+    <destination> nom de domaine de l'hôte ex : www.facebook.com, facebook.com, facebook.fr
+DOC
+  exit 1
   fi
 
 # vérification d'un nom de domaine du type 
 
 for testHost in "$@";
   do
-    if ! [[ $testHost =~ ^www.[a-z][a-z]*\.[a-z][a-z][a-z]*$ ]]; then 
+    if ! [[ $testHost =~ ^[a-z][a-z]*\.[a-z][a-z][a-z]*$ ]]; then 
     echo "Domaine invalide : $testHost "
       exit 1
     fi

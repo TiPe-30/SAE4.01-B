@@ -6,9 +6,17 @@
 
 if [[ $# -lt 1 ]];
   then 
-    echo "Il faut entrer des adresse IP valides pour tester la connexion sur le réseaux"
-    echo "$0 x.x.x.x y.y.y.y ou x et y sont des nombres"
-    exit 10
+cat <<DOC
+script de test de connectivité entre deux machines
+
+Usage: 
+    $0 <destination> ...
+
+Options : 
+    <destination> la ou les destination en adresse Ipv4
+
+DOC
+exit 1
   fi
 
 # Vérification des adresses IPv4
