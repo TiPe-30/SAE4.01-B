@@ -16,7 +16,7 @@ Options :
     <destination> la ou les destination en adresse Ipv4
 
 DOC
-exit 1
+  exit 1
   fi
 
 # Vérification des adresses IPv4

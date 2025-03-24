@@ -18,7 +18,7 @@ DOC
 
 for testHost in "$@";
   do
-    if ! [[ $testHost =~ ^[a-z][a-z]*\.[a-z][a-z][a-z]*$ ]]; then 
+    if ! [[ $testHost =~ ^[a-z][a-z]*\.[a-z][a-z][a-z]*\.?[a-z]*$ ]]; then 
     echo "Domaine invalide : $testHost "
       exit 1
     fi

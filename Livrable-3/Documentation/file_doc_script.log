@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.2)  24 MAR 2025 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.2)  24 MAR 2025 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,26 +23,64 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen141
+\l@unhyphenated=\language11
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2023-12-19 v3.5r French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language7). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language7). Reported on input line 92.
+\FB@stdchar=\count197
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count198
+\FBold@everypar=\toks17
+\FB@Mht=\dimen142
+\mc@charclass=\count199
+\mc@charfam=\count266
+\mc@charslot=\count267
+\std@mcc=\count268
+\dec@mcc=\count269
+\FB@parskip=\dimen143
+\listindentFB=\dimen144
+\descindentFB=\dimen145
+\labelindentFB=\dimen146
+\labelwidthFB=\dimen147
+\leftmarginFB=\dimen148
+\parindentFFN=\dimen149
+\FBfnindent=\dimen150
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-\lst@mode=\count195
+\KV@toks@=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count270
 \lst@gtempboxa=\box51
-\lst@token=\toks18
-\lst@length=\count196
-\lst@currlwidth=\dimen141
-\lst@column=\count197
-\lst@pos=\count198
-\lst@lostspace=\dimen142
-\lst@width=\dimen143
-\lst@newlines=\count199
-\lst@lineno=\count266
-\lst@maxwidth=\dimen144
+\lst@token=\toks19
+\lst@length=\count271
+\lst@currlwidth=\dimen151
+\lst@column=\count272
+\lst@pos=\count273
+\lst@lostspace=\dimen152
+\lst@width=\dimen153
+\lst@newlines=\count274
+\lst@lineno=\count275
+\lst@maxwidth=\dimen154
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count267
-\lst@skipnumbers=\count268
+\c@lstnumber=\count276
+\lst@skipnumbers=\count277
 \lst@framebox=\box52
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -65,12 +103,12 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip50
@@ -86,27 +124,27 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen147
+\col@sep=\dimen157
 \ar@mcellbox=\box53
-\extrarowheight=\dimen148
-\NC@list=\toks21
+\extrarowheight=\dimen158
+\NC@list=\toks22
 \extratabsurround=\skip59
 \backup@length=\skip60
 \ar@cellbox=\box54
 )
-\TX@col@width=\dimen149
-\TX@old@table=\dimen150
-\TX@old@col=\dimen151
-\TX@target=\dimen152
-\TX@delta=\dimen153
-\TX@cols=\count269
-\TX@ftn=\toks22
+\TX@col@width=\dimen159
+\TX@old@table=\dimen160
+\TX@old@col=\dimen161
+\TX@target=\dimen162
+\TX@delta=\dimen163
+\TX@cols=\count278
+\TX@ftn=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count270
-\float@exts=\toks23
+\c@float@type=\count279
+\float@exts=\toks24
 \float@box=\box55
-\@float@everytoks=\toks24
+\@float@everytoks=\toks25
 \@floatcapt=\box56
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -124,45 +162,7 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count271
-\U@D=\dimen154
-\l@unhyphenated=\language11
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count272
- (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2023-12-19 v3.5r French support from the babel system
-Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language7). Reported on input line 91.
-Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language7). Reported on input line 92.
-\FB@stdchar=\count273
-Package babel Info: Making : an active character on input line 420.
-Package babel Info: Making ; an active character on input line 421.
-Package babel Info: Making ! an active character on input line 422.
-Package babel Info: Making ? an active character on input line 423.
-\FBguill@level=\count274
-\FBold@everypar=\toks25
-\FB@Mht=\dimen155
-\mc@charclass=\count275
-\mc@charfam=\count276
-\mc@charslot=\count277
-\std@mcc=\count278
-\dec@mcc=\count279
-\FB@parskip=\dimen156
-\listindentFB=\dimen157
-\descindentFB=\dimen158
-\labelindentFB=\dimen159
-\labelwidthFB=\dimen160
-\leftmarginFB=\dimen161
-\parindentFFN=\dimen162
-\FBfnindent=\dimen163
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
-Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 11.
-) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 \l__pdf_internal_box=\box57
@@ -183,8 +183,16 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
+LaTeX Info: Redefining \degres on input line 52.
+LaTeX Info: Redefining \up on input line 52.
+
+
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 52.
+
 \c@lstlisting=\count281
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count282
 \scratchdimen=\dimen164
@@ -203,18 +211,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \degres on input line 52.
-
-
-Package french.ldf Warning: Please load the "listings" package
-(french.ldf)                AFTER babel/french; reported on input line 52.
-
-LaTeX Info: Redefining \up on input line 52.
-
-Package french.ldf Warning: OT1 encoding should not be used for French.
-(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 52.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -226,22 +222,22 @@ File: Images/Logo-script-test.png Graphic file (type png)
 <use Images/Logo-script-test.png>
 Package pdftex.def Info: Images/Logo-script-test.png  used on input line 62.
 (pdftex.def)             Requested size: 345.0pt x 184.00339pt.
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-script-test.png>] (./file_doc_script.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write3
 \openout3 = `file_doc_script.toc'.
 
- [2] (./commun/introduction.tex) (./commun/usage_script.tex
-<commun/../Images/doc-script-terminal.png, id=17, 861.2175pt x 228.855pt>
+ [2] (./commun/introduction.tex [1]) (./commun/usage_script.tex
+<commun/../Images/doc-script-terminal.png, id=20, 861.2175pt x 228.855pt>
 File: commun/../Images/doc-script-terminal.png Graphic file (type png)
 <use commun/../Images/doc-script-terminal.png>
-Package pdftex.def Info: commun/../Images/doc-script-terminal.png  used on input line 22.
+Package pdftex.def Info: commun/../Images/doc-script-terminal.png  used on input line 25.
 (pdftex.def)             Requested size: 345.0pt x 91.68005pt.
  (../ping_test.sh
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 7.
@@ -250,7 +246,7 @@ File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 Missing character: There is no Ã in font cmtt9!
 Missing character: There is no © in font cmtt9!
-)) (./testPING/testPing.tex [1 <./commun/../Images/doc-script-terminal.png>] (../ping_test.sh
+)) (./testPING/testPing.tex (./testPING/../../ping_test.sh [2 <./commun/../Images/doc-script-terminal.png>]
 Missing character: There is no Ã in font cmtt9!
 Missing character: There is no © in font cmtt9!
 Missing character: There is no Ã in font cmtt9!
@@ -263,7 +259,7 @@ Missing character: There is no Ã in font cmtt9!
 Missing character: There is no © in font cmtt9!
 Missing character: There is no Ã in font cmtt9!
 Missing character: There is no   in font cmtt9!
-[2])) (./testHTTP/testHttp.tex (../test_http.sh
+)) (./testHTTP/testHttp.tex [3] (../test_http.sh
 Missing character: There is no Ã in font cmtt9!
 Missing character: There is no © in font cmtt9!
 Missing character: There is no Ã in font cmtt9!
@@ -272,22 +268,22 @@ Missing character: There is no Ã in font cmtt9!
 Missing character: There is no © in font cmtt9!
 Missing character: There is no Ã in font cmtt9!
 Missing character: There is no ¨ in font cmtt9!
-) [3]) [4] (./file_doc_script.aux)
+)) [4] (./file_doc_script.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5675 strings out of 476080
- 90774 string characters out of 5792745
- 2104975 words of memory out of 5000000
- 27619 multiletter control sequences out of 15000+600000
+ 5688 strings out of 476080
+ 91084 string characters out of 5792745
+ 2107975 words of memory out of 5000000
+ 27631 multiletter control sequences out of 15000+600000
  563556 words of font info for 55 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 57i,12n,65p,354b,2319s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,347b,2281s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/tristan/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on file_doc_script.pdf (6 pages, 179878 bytes).
+Output written on file_doc_script.pdf (6 pages, 181561 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream

@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage[french]{babel}
 \usepackage{listings}
 \usepackage{subfiles}
 \usepackage{graphicx}
@@ -8,7 +9,6 @@
 \usepackage{listings}
 \usepackage{float}
 \usepackage{xcolor}
-\usepackage[french]{babel}
 
 % Définition des couleurs pour la syntaxe
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -76,23 +76,24 @@
 \pagenumbering{arabic}
 
 % inclusion de l'introduction du document
+\section{Introduction}
 \subfile{commun/introduction.tex}
 
 % inclusion de l'image concernant la documentation qui sera commune 
 % a tous les scripts
-
+\section{Utilisation des scripts}
 \subfile{commun/usage_script.tex}
 
 %=============================================================%
 % Inclusion du document concernant le script de connectivité
 %=============================================================%
-
+\section{Test ping intranet}
 \subfile{testPING/testPing.tex}
 
 %=======================================================%
 % Inclusion du document concernant les test HTTP/HTTPS
 %=======================================================%
-
+\section{Test communication HTTP/HTTPS}
 \subfile{testHTTP/testHttp.tex}
 
 

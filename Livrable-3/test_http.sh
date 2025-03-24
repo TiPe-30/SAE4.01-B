@@ -19,6 +19,15 @@ DOC
   fi
 
 # vérification du nom de domaine passé au script ou de l'adresse IP
+for websiteCheck in "$@";
+  do 
+    # check de l'adresse Ip et si ce n'est pas une adresse Ip on vérifie qu'il s'agit d'un nom de domaine valide
+    if [[ ! $websiteCheck =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]] || [[ ! $websiteCheck =~ ^[a-z][a-z]*\.[a-z][a-z][a-z]*\.?[a-z]*$ ]];
+     then 
+      echo "Le nom de domaine ou l'adresse Ip est invalide : $websiteCheck"
+      exit 1
+     fi
+  done
 
 # on parcours les noms de domaines données en paramètres
 for website in "$@";
