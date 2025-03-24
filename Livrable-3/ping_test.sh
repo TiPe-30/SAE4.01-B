@@ -7,7 +7,7 @@
 if [[ $# -lt 1 ]];
   then 
 cat <<DOC
-script de test de connectivité entre deux machines
+script de test de connectivite entre deux machines
 
 Usage: 
     $0 <destination> ...
@@ -19,7 +19,7 @@ DOC
   exit 1
   fi
 
-# Vérification des adresses IPv4
+# Verification des adresses IPv4
 regex_ip='^([0-9]{1,3}\.){3}[0-9]{1,3}$'
 numArg=1
 

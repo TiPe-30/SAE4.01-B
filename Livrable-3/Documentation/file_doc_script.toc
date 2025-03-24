@@ -3,5 +3,7 @@
 \contentsline {section}{\numberline {2}Utilisation des scripts}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Utilisation du script dans un terminal}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Implémentation de cette documentation}{2}{}%
-\contentsline {section}{\numberline {3}Test ping intranet}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Expression régulière}{2}{}%
+\contentsline {section}{\numberline {3}Test ping intranet}{3}{}%
 \contentsline {section}{\numberline {4}Test communication HTTP/HTTPS}{4}{}%
+\contentsline {section}{\numberline {5}Test de resolution de nom DNS}{6}{}%

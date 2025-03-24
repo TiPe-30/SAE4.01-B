@@ -9,8 +9,7 @@
 \usepackage{listings}
 \usepackage{float}
 \usepackage{xcolor}
-
-
+\lstset{inputencoding=utf8}
 
 \begin{document}
 
@@ -32,8 +31,14 @@ Pour cette documentation, nous avons inclus un if pour détecter si aucun param�
 donné au script. Dans ces cas là il lève une erreur en montrant les options que peut utiliser 
 l'administrateur pour ce script.
 
-\UseRawInputEncoding
 \lstinputlisting[firstline=7,lastline=21,language=bash, caption=test HTTP/HTTPS]{../ping_test.sh}
 
+\subsection{Expression régulière}
+Afin de faciliter la gestion des erreurs par les utilisateurs du script, nous avons 
+mis en place une vérification des paramètres données par l'utilisateur via les regex.
+Ces regex permettent de vérifier les entrées utilisateurs et de vérifier que celle ci soient 
+valides et n'engendre pas de bug.
+
+\lstinputlisting[firstline=22,lastline=23,language=bash, caption=expression régulière pour des adresses IP]{../ping_test.sh}
 
 \end{document}
