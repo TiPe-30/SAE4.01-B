@@ -1,8 +1,20 @@
 #!/bin/bash
 
-read -r -p "Entrez l'interface sur laquelle vous souhaitez créer les vlan : " interface
 
-if ! ip addr | grep "$interface" &> /dev/null;
+if [[ $# -ne 1 ]];
+  then 
+cat <<DOC
+Ce script est à utiliser pour configurer les VLANS du routeur
+
+Usage : 
+    $0 <interface>
+
+Options : 
+    <interface> l'interface sur laquelle configurer le VLAN ex : eth0
+DOC
+  fi
+
+if ! ip addr | grep "$1" &> /dev/null;
   then
     echo "Erreur, votre interface n'existe pas !"
     exit 1
@@ -25,8 +37,8 @@ cp /etc/network/interfaces /etc/network/interfaces.bak
 # configuration du vlan pour les utilisateurs
 cat <<USER >> /etc/network/interfaces
 
-auto $interface.10
-iface $interface.10 inet static
+auto $1.10
+iface $1.10 inet static
     address 10.0.10.1
     netmask 255.255.255.0
 
@@ -36,8 +48,8 @@ USER
 
 cat <<ADMIN >> /etc/network/interfaces
 
-auto $interface.20
-iface $interface.20 inet static
+auto $1.20
+iface $1.20 inet static
     address 10.0.20.1
     netmask 255.255.255.0
 
@@ -47,8 +59,8 @@ ADMIN
 
 cat <<SERV >> /etc/network/interfaces
 
-auto $interface.30
-iface $interface.30 inet static
+auto $1.30
+iface $1.30 inet static
     address 10.0.30.1
     netmask 255.255.255.0
 
@@ -58,8 +70,8 @@ SERV
 
 cat <<DMZ >> /etc/network/interfaces
 
-auto $interface.40
-iface $interface.40 inet static
+auto $1.40
+iface $1.40 inet static
     address 10.0.40.1
     netmask 255.255.255.0
 

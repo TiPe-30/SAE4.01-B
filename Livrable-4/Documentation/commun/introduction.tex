@@ -1,0 +1,27 @@
+\documentclass[../livrable-4.tex]{subfiles}
+\usepackage[french]{babel}
+\usepackage{listings}
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{xcolor}
+\lstset{inputencoding=utf8}
+
+\begin{document}
+Dans ce document, nous allons traiter tous les scripts relatifs à l'installation et 
+la configuration de l'infrastructure. Le but est ici, d'automatiser certaines tâches récurrentes
+comme la configuration DHCP, les ajouts d'utilisateur au système ou au wiki etc... 
+
+\subsection{Documentation des scripts}
+Comme dans le document pour les scripts de test, un manuel pour utiliser les scripts
+ont été intégré au script eux-mêmes.
+
+\UseRawInputEncoding
+\lstinputlisting[firstline=3,lastline=21,language=bash, caption=test HTTP/HTTPS]{../install_dhcp.sh}
+
+
+
+\end{document}

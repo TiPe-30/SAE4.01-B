@@ -1,5 +1,24 @@
 #!/bin/bash
 
+if [[ $# -ne 6 ]];
+  then 
+cat <<DOC
+Script de configuration du DHCP, ce script utilise kea comme DHCP
+pour la machine qui l'execute
+
+Usage : 
+    $0 <interface> <network> <router> <addrDeb> <addrFin> <IpServerDNS>
+
+Options : 
+    <interface> : l'interface sur laquelle on veut configurer le serveur ex : eth0
+    <network> : l'adresse Ipv4 du routeur 
+    <addrDeb> : adresse Ipv4 maximale pour la plage d'allocation d'adresse
+    <addrFin> : adresse Ipv4 minimale pour plage adresse
+    <IpServerDNS> : adresse Ipv4 du serveur DNS
+DOC
+    exit 1
+  fi
+
 if ! dpkg -l | grep kea-dhcp4-server &> /dev/null;
   then 
     apt install kea-dhcp4-server
@@ -13,21 +32,9 @@ if ! systemctl is-active kea-dhcp4-server --quiet;
   fi
 
 # on créé un backup du fichier
-mv /etc/kea/kea-dhcp4.conf /etc/kea/kea-dhcp4.conf.bkp
+mv -i /etc/kea/kea-dhcp4.conf /etc/kea/kea-dhcp4.conf.bkp
 
 # configuration du fichier du serveur
-
-read -r -p "Entrez l'interface que vous souhaitez configurer : " interface
-
-read -r -p "Entrez l'adresse du réseau en notation CIDR(ex : 192.168.13.24/24) : " reseau
-
-read -r -p "Entrez l'adresse Ip de votre routeur : " routeur
-
-echo "Entrez la plage d'adresse que vous souhaitez (tapez l'adresse de début puis l'adresse de fin) à la suite : "
-read -r addrDebut 
-read -r addrFin
-
-read -r -p "Entrez l'adresse ip du serveur DNS : " dns
 
 cat <<DHCP > /etc/kea/kea-dhcp4.conf
 
@@ -35,7 +42,7 @@ cat <<DHCP > /etc/kea/kea-dhcp4.conf
     "Dhcp4": {
         "interfaces-config": {
             "interfaces": [
-                "$interface"
+                "$1"
             ]
         },
         "valid-lifetime": 691200,
@@ -50,16 +57,16 @@ cat <<DHCP > /etc/kea/kea-dhcp4.conf
         },
         "subnet4": [
             {
-                "subnet": "$reseau",
+                "subnet": "$2",
                 "pools": [
                     {
-                        "pool": "$addrDebut - $addrFin"
+                        "pool": "$4 - $5"
                     }
                 ],
                 "option-data": [
                     {
                         "name": "domain-name-servers",
-                        "data": "$dns"
+                        "data": "$6"
                     },
                     {
                         "name": "domain-search",
@@ -67,7 +74,7 @@ cat <<DHCP > /etc/kea/kea-dhcp4.conf
                     },
                     {
                         "name": "routers",
-                        "data": "$routeur"
+                        "data": "$3"
                     }
                 ]
             }
