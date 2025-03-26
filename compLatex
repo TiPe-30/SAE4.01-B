@@ -1,0 +1,50 @@
+#!/bin/bash
+
+#on compile le document latex
+
+if [[ $# -eq 0 ]];
+  then 
+cat <<DOC
+Script qui permet de générer le document latex
+et de supprimer les fichiers intermediaire
+
+Usage: 
+    $0 <fichierLatex> [clean]
+
+Options : 
+    [clean] les [] signifie que le paramètre clean est optionnel
+    celui ci permet de supprimer les fichiers intermediaires
+
+    <fichierLatex> qui doit être dans le même répertoire que là ou
+    vous invocez cette commande
+DOC
+    exit 1
+  fi
+
+if [[ ! -f "$(pwd)"/"$(basename "$1")" ]];
+  then
+    echo "Erreur, vous tentez une compilation ailleurs que dans votre répertoire de travail"
+    exit 2
+  fi
+
+if [[ $# -gt 1 ]];
+  then
+     pdflatex "$1"
+     shopt -s globstar nullglob
+
+    for element in "$(pwd)"/**;
+    do 
+        if [[ -f $element ]]; then  
+            extension="${element##*.}"
+
+            if [[ $extension == "aux" ]] || [[ $extension == "fls" ]] ||
+            [[ $extension == "log" ]] || [[ $extension == "toc" ]] || 
+            [[ $extension == "gz" ]]|| [[ $extension == "fdb_latexmk" ]]; then 
+                rm "$element"
+            fi
+        fi
+    done
+    else
+     pdflatex "$1"
+  fi
+

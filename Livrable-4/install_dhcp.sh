@@ -4,15 +4,14 @@ if [[ $# -ne 6 ]];
   then 
 cat <<DOC
 Script de configuration du DHCP, ce script utilise kea comme DHCP
-pour la machine qui l'execute
 
 Usage : 
     $0 <interface> <network> <router> <addrDeb> <addrFin> <IpServerDNS>
 
 Options : 
-    <interface> : l'interface sur laquelle on veut configurer le serveur ex : eth0
-    <network> : l'adresse Ipv4 du routeur 
-    <addrDeb> : adresse Ipv4 maximale pour la plage d'allocation d'adresse
+    <interface> : interface sur laquelle on veut configurer le serveur ex : eth0
+    <network> : adresse Ipv4 du routeur 
+    <addrDeb> : adresse Ipv4 maximale pour la plage allocation adresse
     <addrFin> : adresse Ipv4 minimale pour plage adresse
     <IpServerDNS> : adresse Ipv4 du serveur DNS
 DOC
