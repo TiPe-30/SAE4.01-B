@@ -39,7 +39,7 @@ if [[ $# -gt 1 ]];
 
             if [[ $extension == "aux" ]] || [[ $extension == "fls" ]] ||
             [[ $extension == "log" ]] || [[ $extension == "toc" ]] || 
-            [[ $extension == "gz" ]]|| [[ $extension == "fdb_latexmk" ]]; then 
+            [[ $extension == "gz" ]] || [[ $extension == "fdb_latexmk" ]] || [[ $extension == "out" ]]; then 
                 rm "$element"
             fi
         fi

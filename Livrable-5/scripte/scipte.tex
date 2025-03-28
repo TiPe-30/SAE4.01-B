@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{ 
+  language=Bash,                % Langage du script
+  backgroundcolor=\color{lightgray},  % Couleur de fond
+  basicstyle=\ttfamily\small,         % Style de base (police à chasse fixe et petite taille)
+  keywordstyle=\color{blue},          % Style des mots-clés
+  commentstyle=\color{green},         % Style des commentaires
+  stringstyle=\color{red},            % Style des chaînes
+  breaklines=true,                  % Séparer les lignes longues
+  showstringspaces=false,            % Ne pas marquer les espaces dans les chaînes
+  frame=single,                     % Ajouter un cadre autour du code
+}
+
+\begin{document}
+
+
+
+\lstinputlisting[caption={script test de l'ip}]{test.sh}
+
+\newpage
+
+\begin{lstlisting}[caption={Mon script Bash}]
+    #!/bin/bash
+shopt -s globstar nullglob
+
+for element in "$(pwd)"/**;
+  do 
+    if [[ -f $element ]]; then  
+        extension="${element##*.}"
+
+        if [[ $extension == "aux" ]] || [[ $extension == "fls" ]] ||
+        [[ $extension == "log" ]] || [[ $extension == "toc" ]] || 
+        [[ $extension == "gz" ]]|| [[ $extension == "fdb_latexmk" ]]; then 
+            rm "$element"
+        fi
+      fi
+  done
+\end{lstlisting}
+
+
+\end{document}
