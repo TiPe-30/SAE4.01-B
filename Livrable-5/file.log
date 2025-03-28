@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.26)  21 MAR 2025 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.11.26)  28 MAR 2025 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,57 +232,117 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <Images/Logo-project.jpeg, id=1, 321.2pt x 240.9pt>
 File: Images/Logo-project.jpeg Graphic file (type jpg)
 <use Images/Logo-project.jpeg>
-Package pdftex.def Info: Images/Logo-project.jpeg  used on input line 25.
+Package pdftex.def Info: Images/Logo-project.jpeg  used on input line 26.
 (pdftex.def)             Requested size: 321.19922pt x 240.8994pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/Logo-project.jpeg
 >] (./file.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
+(Font)              <5> on input line 7.
 )
 \tf@toc=\write3
 \openout3 = `file.toc'.
 
- [2] (./Introduction/introduction.tex) (./architecture.tex
-<Images/Architecture.png, id=15, 2480.26625pt x 1198.4775pt>
-File: Images/Architecture.png Graphic file (type png)
-<use Images/Architecture.png>
-Package pdftex.def Info: Images/Architecture.png  used on input line 13.
-(pdftex.def)             Requested size: 345.0pt x 166.68846pt.
+ [1] (./Introduction/introduction.tex
 
-[1])
-<Images/Ressource.png, id=19, 1449.91687pt x 560.0925pt>
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \newline
+            
+? 
+) [1] (./Architecture/architecture.tex
+Overfull \hbox (5.77608pt too wide) in paragraph at lines 15--16
+[]\OT1/cmr/m/n/10 Un ser-vice DNS sera ^^Segalement d^^Seploy^^Se dans la DMZ p
+our as-su-rer la r^^Sesolution
+ []
+
+<Images/Architecrue.png, id=18, 879.285pt x 1684.04156pt>
+File: Images/Architecrue.png Graphic file (type png)
+<use Images/Architecrue.png>
+Package pdftex.def Info: Images/Architecrue.png  used on input line 20.
+(pdftex.def)             Requested size: 345.0pt x 660.75652pt.
+[2]
+Overfull \vbox (134.70096pt too high) has occurred while \output is active []
+
+
+[3 <./Images/Architecrue.png>]) (./scripte/scipte.tex (./scripte//test.sh
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 7
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 9--10
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 10--11
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 11--12
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [4]
+Overfull \hbox (63.00415pt too wide) in paragraph at lines 34--35
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (45.00397pt too wide) in paragraph at lines 35--36
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (99.00452pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [5]
+<Images/Ressource.png, id=37, 1449.91687pt x 560.0925pt>
 File: Images/Ressource.png Graphic file (type png)
 <use Images/Ressource.png>
-Package pdftex.def Info: Images/Ressource.png  used on input line 55.
+Package pdftex.def Info: Images/Ressource.png  used on input line 68.
 (pdftex.def)             Requested size: 345.0pt x 133.2712pt.
- [2 <./Images/Architecture.png> <./Images/Ressource.png (PNG copy)>]
-(./DocTechnique/DNS/DNS.tex) [3] (./file.aux)
+ [6 <./Images/Ressource.png (PNG copy)>] (./DocTechnique/DNS/DNS.tex)
+[7] (./file.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4963 strings out of 477908
- 80051 string characters out of 5837076
- 1857330 words of memory out of 5000000
- 25076 multiletter control sequences out of 15000+600000
- 516843 words of font info for 47 fonts, out of 8000000 for 9000
+ 5271 strings out of 477908
+ 82823 string characters out of 5837076
+ 1867330 words of memory out of 5000000
+ 25366 multiletter control sequences out of 15000+600000
+ 517178 words of font info for 48 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 57i,11n,62p,1197b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on file.pdf (5 pages, 639479 bytes).
+ 57i,11n,62p,1197b,1342s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </users/info/etu-2a/reyt/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/
+tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on file.pdf (9 pages, 377820 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
