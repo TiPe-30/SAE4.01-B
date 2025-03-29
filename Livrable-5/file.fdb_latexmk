@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1742467237.07104 "/home/tristan/SAE4.01-B/Livrable-5/file.tex" "file.pdf" "file" 1742467237.78822 0
+["pdflatex"] 1743087689.75998 "/home/tristan/SAE4.01-B/Livrable-5/file.tex" "file.pdf" "file" 1743087690.31722 0
   "/etc/texmf/web2c/texmf.cnf" 1740942388.45652 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/tristan/SAE4.01-B/Livrable-5/file.tex" 1742467235.843 2246 a428741184453849b722a39ef256e24f ""
+  "/home/tristan/SAE4.01-B/Livrable-5/file.tex" 1742585157.91083 2265 c665e42588dfd07bc453f89328b12b16 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -33,6 +33,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty" 1137109962 1360 df2086bf924b14b72d6121fe9502fcdb ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def" 1663965824 19448 1e988b341dda20961a6b931bcde55519 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
@@ -57,10 +58,10 @@
   "Images/Logo-project.jpeg" 1742467155.802 24546 bb7e4434e8add669449f82e056a3317e ""
   "Images/Ressource.png" 1742467155.804 64747 546a94e35c4dab9fa803d2463642415e ""
   "Introduction/introduction.tex" 1742467155.807 1913 d87685d6bcaf66488bf78d2d4f1631f1 ""
-  "architecture.tex" 1742467155.813 1097 b693f93047768ffa30c221161a858eb7 ""
-  "file.aux" 1742467237.74 1209 cc700937f00033fc6bb632f28d9cb0f4 "pdflatex"
-  "file.tex" 1742467235.843 2246 a428741184453849b722a39ef256e24f ""
-  "file.toc" 1742467237.742 438 57a386db361cd51502c1ed22771aa9dd "pdflatex"
+  "architecture.tex" 1743087688.58524 1112 a0321d5308dcc499f2ea0d2b4359acd8 ""
+  "file.aux" 1743087690.2673 1209 46779967f2e20174726d98683da79035 "pdflatex"
+  "file.tex" 1742585157.91083 2265 c665e42588dfd07bc453f89328b12b16 ""
+  "file.toc" 1743087690.2683 438 e6e4a42120107e9db07a182dfd76a91f "pdflatex"
   (generated)
   "file.aux"
   "file.log"

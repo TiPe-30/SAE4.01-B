@@ -42,6 +42,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def

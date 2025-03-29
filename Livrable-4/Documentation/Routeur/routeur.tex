@@ -1,0 +1,20 @@
+\documentclass[../livrable-4.tex]{subfiles}
+\usepackage[french]{babel}
+\usepackage{listings}
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{xcolor}
+\lstset{inputencoding=utf8}
+
+\begin{document}
+Pour notre infrastructure, un seul routeur est utile. Les réseaux virtuels sont créées 
+dans note interface proxmox, lors de la configuration des machines virtuelles.
+
+\UseRawInputEncoding
+\lstinputlisting[language=bash, caption=documentation script routeur]{../configure_routeur.sh}
+
+
+\end{document}
