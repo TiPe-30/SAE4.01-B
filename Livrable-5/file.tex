@@ -20,35 +20,52 @@
  Majd El Sebeiti , Vianney Miquel}
 \date{\today}
 \maketitle
+
 \begin{center}
     \vspace{1cm} % Espace entre la date et l'image
     \includegraphics{Images/Logo-project.jpeg} % Ajuste le chemin et la taille
 \end{center}
 
-\maketitle
-
-\pagenumbering{gobble}
 \newpage
-%nom de la table des matières
-\renewcommand{\contentsname}{Table des matières}
+\pagenumbering{gobble} % Désactive la numérotation de page pour la table des matières
+\renewcommand{\contentsname}{Table des matières} % Titre personnalisé de la table des matières
 
-%déclaration de la table des matières
-\tableofcontents
+\tableofcontents 
 
 \newpage
-\pagenumbering{arabic}
+
+
+\pagenumbering{arabic} % Reprend la numérotation des pages
+
+%==================================%
+%  INCLUSION DU MODULE POUR INTRO  %
+%==================================%
 
 \section{Introduction}
 
 \subfile{Introduction/introduction.tex}
 
+\newpage
+
+%==================================%
+%  INCLUSION DU MODULE POUR Architeceure  %
+%==================================%
+
 \section{Rappel et évolution sur l'architecture}
 
-\subfile{architecture.tex}
+\subfile{Architecture/architecture.tex}
+
+\newpage
+
+\section{Scripte crée }
+
+\subfile{scripte/scipte.tex}
+
+\newpage
 
 \section{Ressources utilisées}
 
-Pour notre SAE nous avons réunis les machines dans un cluster pour interconnecter nos hyperviseurs et de mutualiser les ressources qui sont répartis à travers nos hyperviseurs.
+Pour notre SAE, nous avons réuni les machines dans un cluster pour interconnecter nos hyperviseurs et mutualiser les ressources qui sont réparties à travers nos hyperviseurs.
 
 \begin{figure}[h]
     \centering
@@ -57,12 +74,11 @@ Pour notre SAE nous avons réunis les machines dans un cluster pour interconnect
     \label{fig:solution1}
 \end{figure}
 
-L'avantage de cette configuration par rapport à celle présente sur ASSR, c'est que nous n'avons pas machine virtuelle imbriqué
-cela permet d'améliorer de manière significative les performances. \\
-Le CPU est la ressource qui pose le moins de problème dans notre cas, il en est tout autre pour la RAM.
-Celle ci va devoir être géré de manière équitable entre les hyperviseurs pour eviter une surcharge.
-Le stockage ne devrait pas poser problème outre mesure, mais pourrait le devenir si l'on était dans l'obligation de rajouter 
-des machines.
+L'avantage de cette configuration par rapport à celle présente sur ASSR, c'est que nous n'avons pas de machines virtuelles imbriquées, ce qui permet d'améliorer de manière significative les performances. \\
+Le CPU est la ressource qui pose le moins de problème dans notre cas, il en est tout autre pour la RAM. Celle-ci devra être gérée de manière équitable entre les hyperviseurs pour éviter une surcharge. 
+Le stockage ne devrait pas poser de problème majeur, mais pourrait le devenir si nous étions dans l'obligation d'ajouter de nouvelles machines.
+
+\newpage
 
 \section{Documentation Technique}
 

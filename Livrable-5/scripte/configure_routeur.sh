@@ -26,6 +26,59 @@ net.ipv4.ip_forward=1
 
 DEB
 
+if ! dpkg -l | grep vlan &> /dev/null;then
+    apt install vlan
+fi
+
+echo "8021q" | sudo tee -a /etc/modules
+
+cp /etc/network/interfaces /etc/network/interfaces.bak
+
+# configuration du vlan pour les utilisateurs
+cat <<USER >> /etc/network/interfaces
+
+auto $1.10
+iface $1.10 inet static
+    address 10.0.10.1
+    netmask 255.255.255.0
+
+USER
+
+#configuration du vlan pour les administrateurs
+
+cat <<ADMIN >> /etc/network/interfaces
+
+auto $1.20
+iface $1.20 inet static
+    address 10.0.20.1
+    netmask 255.255.255.0
+
+ADMIN
+
+#configuration du vlan pour le serveur
+
+cat <<SERV >> /etc/network/interfaces
+
+auto $1.30
+iface $1.30 inet static
+    address 10.0.30.1
+    netmask 255.255.255.0
+
+SERV
+
+#configuration de la DMZ
+
+cat <<DMZ >> /etc/network/interfaces
+
+auto $1.40
+iface $1.40 inet static
+    address 10.0.40.1
+    netmask 255.255.255.0
+
+DMZ
+
+sudo systemctl enable networking
+
 # configurer le par-feu nftables
 
 cat <<FILE > /etc/nftables.conf
