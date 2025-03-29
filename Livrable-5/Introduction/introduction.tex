@@ -3,19 +3,15 @@
 
 
 \begin{document}
-En charge de l'IT pour l'entreprise PLETER, spécialisée dans l'animation 3D, un secteur fortement dépendant de l'informatique. Il est essentiel de mettre en place une infrastructure réseau robuste et sécurisée, capable de répondre à tous les besoins de l'entreprise. Cette infrastructure doit également être conçue pour supporter l'ensemble des logiciels et systèmes d'exploitation nécessaires aux équipes créatives et de développement, afin de garantir une compatibilité optimale avec les outils utilisés (ex : Blender, Adobe Creative Cloud, logiciel Autodesk, Unreal Engine, Cinema 4D, etc).
+En charge de l'IT pour l'entreprise PLETER, spécialisée dans l'animation 3D, un secteur fortement dépendant de l'informatique, il est essentiel de mettre en place une infrastructure réseau robuste et sécurisée, capable de répondre à tous les besoins de l'entreprise. Cette infrastructure doit également être conçue pour supporter l'ensemble des logiciels et systèmes d'exploitation nécessaires aux équipes créatives et de développement, afin de garantir une compatibilité optimale avec les outils utilisés (ex. : Blender, Adobe Creative Cloud, logiciels Autodesk, Unreal Engine, Cinema 4D, etc.).
+
 \newline
-Lors de la phase de réflexion du projet, nous avons donc décidé d'utilser proxmox afin de virtualiser
-nos machines virtuelles. Le but initial
-était de prendre Qemu sur le serveur interne à notre IUT(assr) afin de faire tourner une machine virtuelle
-avec suffisament de ressource afin de pouvoir faire tourner notre infrastructure dedans.
-Avec proxmox, comme nous avons des hyperviseurs réunit dans un cluser nous amélioront les performances tout en 
-complexifiant la tâche. En effet, les interface de VLAN de proxmox rendent l'approche de configurer des routeurs 
-qui permettent de connecter des VMs à travers les hyperviseurs complexe. Nous avons les VxLan de l'interface proxmox 
-qui doivent ainsi contenir les hyperviseurs mais pas relier les VM à part la vm routeur qui sera relié à un hyperviseur proxmox.
-D'autres approchent sont sans doute possible, mais c'est la piste sur laquelle nous cherchons.
-Afin de gagner du temps sur la partie réalisation, la plupart des tâches récurrentes comme la configuration des serveurs 
-DHCP qui peupleront chaque sous réseaux, ont été crées. Les test de connectivité permettent donc de réaliser les tests sans problèmes
-particuliers.
+Lors de la phase de réflexion du projet, nous avons décidé d'utiliser Proxmox afin de virtualiser nos machines. L'objectif initial était d'utiliser QEMU sur le serveur interne de notre IUT (ASSR) pour faire tourner une machine virtuelle disposant de suffisamment de ressources afin d'héberger notre infrastructure.
+
+Avec Proxmox, comme nous avons des hyperviseurs réunis dans un cluster, nous améliorons les performances tout en complexifiant la tâche. En effet, les interfaces VLAN de Proxmox rendent la configuration des routeurs, qui permettent de connecter des VMs à travers les hyperviseurs, plus complexe. Nous avons les VxLAN de l'interface Proxmox, qui doivent inclure les hyperviseurs, mais sans relier directement les VMs, à l'exception de la VM routeur qui sera connectée à un hyperviseur Proxmox.
+
+D'autres approches sont sans doute possibles, mais c'est la piste sur laquelle nous travaillons actuellement.
+
+Afin de gagner du temps sur la partie réalisation, la plupart des tâches récurrentes, comme la configuration des serveurs DHCP qui alimenteront chaque sous-réseau, ont été automatisées. Les tests de connectivité permettent ainsi de valider le bon fonctionnement du réseau sans rencontrer de problèmes particuliers.
 
 \end{document}

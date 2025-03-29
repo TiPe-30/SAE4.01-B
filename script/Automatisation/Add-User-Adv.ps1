@@ -1,5 +1,7 @@
+#Script pour rajouter un utilisateur dans Active Directory
+
 ###################CONSTANTE##################################
-$OU = "CN=Users,DC=LOCAL,DC=PLETER,DC=OVH"  #Organizational Units où insérer l'utilisateur
+$OU = "CN=Users,DC=LOCAL,DC=PLETER,DC=OVH"  #Organizational Units de où insérer l'utilisateur
 $DomainName = "LOCAL.PLETER.OVH" #Domaine Active Directory
 
 ###################MAIN#######################################
